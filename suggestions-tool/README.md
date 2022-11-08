@@ -1,5 +1,10 @@
 # suggestions-tool
-**Live at https://gazebo-doc-index-suggestions.herokuapp.com**
+
+## The application is outdated
+
+**Offline note:** after the move of Gazebo from Bitbucket to GitHub the tool has broken for a while and now disabled from access in Heroku, no more reachable at https://gazebo-doc-index-suggestions.herokuapp.com. There is also a good number of updates to current versions that needs to be done before getting it back online.
+
+## Original documentation
 
 The directory contains code for a suggestions-tool application for suggesting doc-index entries that scrapes Bitbucket issues of Gazebo's repository, extracts keywords from the content and allows us to mark and store the issues that have already been added to the doc index. This will help us in tracking Bitbucket issues efficiently for adding entries to the doc index.
 
