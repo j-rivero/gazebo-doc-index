@@ -2,7 +2,7 @@
 # Contribution guidelines:
 # https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md 
 
-title: "Installing the Gazebo simulator"
+title: "Installing the Gazebo libraries and the Simulator"
 desc: "Links related to the Gazebo's installation instructions for different supported platforms"
 subcategories: 
 
