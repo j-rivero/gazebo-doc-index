@@ -6,13 +6,17 @@ title: Gazebo and ROS
 desc: Links related to the use of Gazebo together with ROS (Robot Operative System)
 subcategories: 
 
-  - title: Installation
+  - title: Installation & Basics
     items:
       - title: Installing Gazebo with ROS
         url: https://gazebosim.org/docs/all/ros_installation
         desc: Main page documenting all the options of installing Gazebo and ROS together
         star: true
 
+      - title: ROS 2 and Gazebo Integration Best Practices
+        url: https://vimeo.com/showcase/9954564/video/767127300
+        desc: The talk serves to define best practices of integrating simulation with ROS 2
+        star: true
 
   - title: Gazebo with Moveit2/ros2_controls 
     items:
