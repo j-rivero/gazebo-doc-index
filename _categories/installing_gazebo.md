@@ -5,134 +5,62 @@
 title: "Installing the Gazebo simulator"
 desc: "Links related to the Gazebo's installation instructions for different supported platforms"
 subcategories: 
+
+  - title: "Gazebo, Gazebo-Classic and Ignition"
+    items: 
+      - title: 'What is Gazebo Sim'
+        url: 'https://gazebosim.org/docs'
+        desc: 'Main page with information on supported versions and platforms'
+        star: true
+      - tittle: Why the Ignition name was replaced by Gazebo
+        url: 'https://community.gazebosim.org/t/a-new-era-for-gazebo/1356'
+        desc: 'Official forum post explaining why and how Ignition became Gazebo'
+        star: false
+      - title: Feature comparison Gazebo Classic vs Gazebo
+        url: https://gazebosim.org/docs/all/comparison
+        desc: Feature comparison between Gazebo Classic and latest Gazebo
+        star: false
+
   - title: "Installing on Linux"
     items: 
-      - title: 'One line installation'
-        url: 'http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install#Defaultinstallation:one-liner'
-        desc: 'Short command to run in your terminal to install the latest Gazebo for any linux distribution' 
+      - title: Choosing a Gazebo release (collection of Gazebo libs)
+        url: 'https://gazebosim.org/docs'
+        desc: 'Main page with information on supported versions and platforms'
         star: true
-
-      - title: 'Ubuntu: Choosing your package repositories'
-        url: 'http://gazebosim.org/tutorials?tut=ros_wrapper_versions&cat=connect_ros#Important!simpleanalysisforaquickandcorrectdecision'
-        desc: 'Gazebo can be installed from different repositories. Special attention for ROS users.'
-        star: true
-
-      - title: 'Ubuntu: Packages installation'
-        url: 'http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install#Alternativeinstallation:step-by-step'
-        desc: 'Traditional steps to configure a repository and step-by-step installation instructions for the Ubuntu binaries using apt-get.'
-        star: true
-
-      - title: 'Ubuntu: Prereleases/nightly packages installation'
-        url: 'http://gazebosim.org/tutorials?tut=install_unstable&cat=install'
-        desc: 'Experimental packages created from development branches still unreleased in official releases'
-        star: false
-
-      - title: 'Debian: Packages installation'
-        url: 'http://gazebosim.org/tutorials?tut=install_other_linux&cat=install#Debian'
-        desc: 'How to install Gazebo on Debian using .deb packages'
-        star: true
-      
-      - title: 'Debian: Installing gazebo7 on Jessie'
-        url: 'http://answers.gazebosim.org/question/13031/installing-gazebo-in-debian-jessie/'
-        desc: 'How to install Gazebo using the package manager in other Linux distributions'
-        star: false
-
-      - title: 'Fedora, Arch, Gentoo installations'
-        url: 'http://gazebosim.org/tutorials?tut=install_other_linux&cat=install#Debian'
-        desc: 'Instructions to install Gazebo7 on Debian Jessie'
-        star: false
-      
-      - title: 'Compiling Gazebo from source on Linux'
-        url: 'http://gazebosim.org/tutorials?tut=install_from_source&cat=install#InstallGazebofromsource%28UbuntuandMac%29'
-        desc: 'How to compile gazebo from source on a Linux distribution.'
-        star: false
-
-      - title: 'Docker Gazebo images'
-        url: 'https://hub.docker.com/_/gazebo/'
-        desc: 'Lightweight virtualized containers with gazebo preinstalled'
-        star: false
-
-      - title: 'Gazebo Changelog'
-        url: 'https://bitbucket.org/osrf/gazebo/src/default/Changelog.md'
-        desc: 'New features, bugfixes and changes between Gazebo versions'
-        star: false
 
   - title: "Installing on MacOSX"
     items:
-      - title: 'One line installation'
-        url: 'http://gazebosim.org/tutorials?tut=install_on_mac&cat=install#Defaultinstallation:one-liner'
-        desc: 'Short command to run in your terminal to install Gazebo on Mac'
-        star: true
-
       - title: 'Supported OSX versions'
-        url: 'http://gazebosim.org/tutorials?cat=install&tut=install_on_mac'
+        url: 'https://gazebosim.org/docs'
         desc: 'Which OSX versions are supported by Gazebo'
         star: true
 
-      - title: 'Brew installation step by step'
-        url: 'http://gazebosim.org/tutorials?tut=install_on_mac&cat=install#Alternativeinstallation:step-by-step'
-        desc: 'Guide to go through all the steps to install Gazebo using the Brew package manager'
-        star: false
+      - title: Brew installation
+        url: https://gazebosim.org/docs/latest/install_osx
+        desc: Guide to go through all the steps to install Gazebo using the Brew package manager
+        star: true
 
       - title: 'Brew Gazebo repository'
         url: 'https://github.com/osrf/homebrew-simulation'
-        desc: 'Github repo containing the brew metadata about all gazebo related packages.'
+        desc: 'Github repo containing the brew metadata about all Gazebo related packages.'
         star: false
-
-      # - title: 'Gazebo installer for OSX (in progress)'
-      #   url: 'http://answers.gazebosim.org/question/TODO'
-      #   desc: 'Roadmap to implement a Gazebo installer for OSX'
-      #   star: false
-
-      - title: 'Using ROS and Gazebo on MacOSX'
-        url: 'http://wiki.ros.org/jade/Installation/OSX/Homebrew/Source'
-        desc: 'Instructions to install ROS + Gazebo on MacOSX'
-        star: false
-
-      - title: 'Compiling Gazebo from source on Mac'
-        url: 'http://wiki.ros.org/jade/Installation/OSX/Homebrew/Source'
-        desc: 'How to compile Gazebo from source on a Mac distribution'
-        star: false
-                
-      - title: 'Access Gazebo in Docker installed on a mac host'
-        url: 'https://github.com/osrf/docker_images/issues/55#issuecomment-572762297'
-        desc: 'How to access to Gazebo GUI in Mac when Gazebo is running on a docker container'
-        star: false
-       
 
   - title: "Gazebo + ROS installation on Ubuntu Linux"
     items:
-      - title: 'Choosing the right repositories for Gazebo/ROS'
-        url: 'http://gazebosim.org/tutorials?tut=ros_wrapper_versions&cat=connect_ros'
-        desc: 'Analysis of Gazebo versions for ROS + Gazebo integration .'
-        star: true
-
-      - title: 'The version fully supported by ROS Kinetic, Lunar or Melodic'  
-        url: 'http://gazebosim.org/tutorials?tut=ros_wrapper_versions&cat=connect_ros#UsingthedefaultGazeboversionforaROSdistribution'
-        desc: 'Which is the Gazebo version fully supported by all binary packages distributed by ROS'
-        star: true
-        
-      - title: 'Using latest Gazebo with ROS'
-        url: 'http://gazebosim.org/tutorials?tut=ros_wrapper_versions&cat=connect_ros#UsingaspecificGazeboversionwithROS'
-        desc: 'Target for advanced users: how to use latest Gazebo version with the different ROS distributions'
+      - title: Installing Gazebo with ROS
+        url: https://gazebosim.org/docs/all/ros_installation
+        desc: Main page documenting all the options of installing Gazebo and ROS together
         star: true
 
   - title: "Installing on Windows"
     items:
-      - title: 'Windows7 + MSVC12 installation'
-        url: 'http://gazebosim.org/tutorials?tut=install_on_windows&cat=install'
-        desc: 'Instructions to build gazebo in Windows7 using MSVC12'
+      - title: Gazebo Sim runtime problems on Windows
+        url: https://github.com/gazebosim/gz-sim/issues/168
+        desc: Latest updates on the problems to run Gazebo Sim on Windows
         star: true
-
-      # - title: 'MSVC versions different than MSVC12'
-      #   url: 'http://answers.gazebosim.org/question/TODO' # todo
-      #   desc: 'Status of the support for different versions of Microsoft Visual Studio C++ compiler'
-      #   star: false
-
-      - title: 'Windows10 or other Windows versions installation'
-        url: 'https://bitbucket.org/osrf/gazebo_tutorials/issues/92/remove-or-update-windows-installation'
-        desc: 'Status of the support for different versions of Microsoft Windows, particularly Windows 10.'
+      - title: Installation of latest Gazebo libraries on Windows
+        url: https://gazebosim.org/docs/all/install_windows
+        desc: Instruction to install the different Gazebo libraries on Windows using binaries 
         star: false
-
 
 ---
