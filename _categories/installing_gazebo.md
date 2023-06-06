@@ -12,7 +12,7 @@ subcategories:
         url: 'https://gazebosim.org/docs'
         desc: 'Main page with information on supported versions and platforms'
         star: true
-      - tittle: Why the Ignition name was replaced by Gazebo
+      - title: Why the Ignition name was replaced by Gazebo
         url: 'https://community.gazebosim.org/t/a-new-era-for-gazebo/1356'
         desc: 'Official forum post explaining why and how Ignition became Gazebo'
         star: false
