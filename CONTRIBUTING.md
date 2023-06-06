@@ -5,12 +5,12 @@ index](https://osrf.github.io/gazebo-doc-index/).
 
 ### Table of contents
 
-- [About](https://github.com/osrf/gazebo-doc-index/blob/master/CONTRIBUTING.md#about)
-- [Repository structure](https://github.com/osrf/gazebo-doc-index/blob/master/CONTRIBUTING.md#repository-structure)
-- [How to contribute](https://github.com/osrf/gazebo-doc-index/blob/master/CONTRIBUTING.md#how-to-contribute)
-  - [Index structure](https://github.com/osrf/gazebo-doc-index/blob/master/CONTRIBUTING.md#index-structure)
-  - [Preview changes](https://github.com/osrf/gazebo-doc-index/blob/master/CONTRIBUTING.md#preview-changes)
-  - [Test the changes](https://github.com/osrf/gazebo-doc-index/blob/master/CONTRIBUTING.md#test-the-changes)
+- [About](https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md#about)
+- [Repository structure](https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md#repository-structure)
+- [How to contribute](https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md#how-to-contribute)
+  - [Index structure](https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md#index-structure)
+  - [Preview changes](https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md#preview-changes)
+  - [Test the changes](https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md#test-the-changes)
 
 ### About
 
@@ -159,7 +159,7 @@ jekyll serve
 ```
 
 For instructions to set up the jekyll project on your machine, refer to the
-repository's [README](https://github.com/osrf/gazebo-doc-index#getting-started).
+repository's [README](https://github.com/j-rivero/gazebo-doc-index#getting-started).
 
 ####  Test the changes
 

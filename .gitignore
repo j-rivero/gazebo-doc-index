@@ -2,9 +2,3 @@ _site
 .sass-cache
 .jekyll-metadata
 .DS_Store
-bin/
-include/
-lib/
-node_modules/
-.vscode/
-*.pyc

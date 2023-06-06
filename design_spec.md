@@ -1,17 +1,17 @@
 # Design Specification Document: Gazebo Documentation Index
 
 ## Table of contents
-- [Introduction](https://github.com/osrf/gazebo-doc-index/blob/master/design_spec.md#1-introduction)
-- [Background](https://github.com/osrf/gazebo-doc-index/blob/master/design_spec.md#2-background)
-- [Purpose](https://github.com/osrf/gazebo-doc-index/blob/master/design_spec.md#3-purpose)
-- [Implementation](https://github.com/osrf/gazebo-doc-index/blob/master/design_spec.md#4-implementation)
-  - [Technology stack](https://github.com/osrf/gazebo-doc-index/blob/master/design_spec.md#41-technology-stack)
-  - [Index structure](https://github.com/osrf/gazebo-doc-index/blob/master/design_spec.md#42-index-structure)
-  - [Collaboration and Maintenance](https://github.com/osrf/gazebo-doc-index/blob/master/design_spec.md#43-collaboration-and-maintenance)
-  - [User interface](https://github.com/osrf/gazebo-doc-index/blob/master/design_spec.md#44-user-interface)
-  - [Repository structure](https://github.com/osrf/gazebo-doc-index/blob/master/design_spec.md#45-repository-structure)
-  - [Hosting](https://github.com/osrf/gazebo-doc-index/blob/master/design_spec.md#46-hosting)
-- [Progress](https://github.com/osrf/gazebo-doc-index/blob/master/design_spec.md#5-progress)
+- [Introduction](https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#1-introduction)
+- [Background](https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#2-background)
+- [Purpose](https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#3-purpose)
+- [Implementation](https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#4-implementation)
+  - [Technology stack](https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#41-technology-stack)
+  - [Index structure](https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#42-index-structure)
+  - [Collaboration and Maintenance](https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#43-collaboration-and-maintenance)
+  - [User interface](https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#44-user-interface)
+  - [Repository structure](https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#45-repository-structure)
+  - [Hosting](https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#46-hosting)
+- [Progress](https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#5-progress)
 
 
 ## 1. Introduction
@@ -114,7 +114,7 @@ Contributions can be made by updating the index items, their descriptions,
 categories or subcategories, using pull requests. 
 
 For information about how to contribute to the project, contribution guidelines
-can be referred to [here](https://github.com/osrf/gazebo-doc-index/blob/master/CONTRIBUTING.md).
+can be referred to [here](https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md).
 
 ### 4.4 User interface
 

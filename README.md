@@ -1,11 +1,11 @@
 # Gazebo Documentation Index
 
 This repository contains code for Gazebo's documentation index.
-The documentation index can be accessed at https://osrf.github.io/gazebo-doc-index/.
+The documentation index can be accessed at https://j-rivero.github.io/gazebo-doc-index/.
 
 Status: Alpha version released
 
-More information about the project can be found in the design specification document [`design_spec.md`](https://github.com/osrf/gazebo-doc-index/blob/master/design_spec.md).
+More information about the project can be found in the design specification document [`design_spec.md`](https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md).
 
 ## Getting started
 
@@ -14,7 +14,7 @@ More information about the project can be found in the design specification docu
 
 #### Setup
 ```
-git clone https://github.com/osrf/gazebo-doc-index.git
+git clone https://github.com/j-rivero/gazebo-doc-index.git
 cd gazebo-doc-index
 bundle exec jekyll serve
 ```
@@ -33,5 +33,5 @@ This folder contains HTML code for the navbar and the footer.
 
 ## Contribution guidelines
 
-Refer to [CONTRIBUTING.md](https://github.com/osrf/gazebo-doc-index/blob/master/CONTRIBUTING.md) for information about how to contribute to the project.
+Refer to [CONTRIBUTING.md](https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md) for information about how to contribute to the project.
 
