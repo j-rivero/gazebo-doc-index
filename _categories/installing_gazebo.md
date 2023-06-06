@@ -8,9 +8,9 @@ subcategories:
 
   - title: "Gazebo, Gazebo-Classic and Ignition"
     items: 
-      - title: 'What is Gazebo Sim'
-        url: 'https://gazebosim.org/docs'
-        desc: 'Main page with information on supported versions and platforms'
+      - title: Alter Ego of Gazebo
+        url:  https://docs.google.com/presentation/d/1Arw261f8Fye0QCghsXfHXR2VRFaJTM2vicQs2_tuSnI/edit#slide=id.p
+        desc: ICRA 2023 presentation about Gazebo, versions and features
         star: true
       - title: Why the Ignition name was replaced by Gazebo
         url: 'https://community.gazebosim.org/t/a-new-era-for-gazebo/1356'
