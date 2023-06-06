@@ -1,0 +1,45 @@
+List of links of resources looking for a place into the index:
+
+Processing https://docs.google.com/presentation/d/1Arw261f8Fye0QCghsXfHXR2VRFaJTM2vicQs2_tuSnI/edit#slide=id.g2110547bca0_1_38
+
+---
+
+FEATURES
+- Plotting https://community.gazebosim.org/t/gsoc-2020-plotting-tool-for-ignition/619
+
+---
+
+>> Fortress video https://www.youtube.com/watch?v=aKpUSXgZXYM&t=2s&ab_channel=GazeboSim
+
+FEATURES
+ * Lightmap : Support lightmap textures for efficient prebaked global illumination, see this example model 3.
+ * Particle effects : Full support for particle emitters, which affect sensors like depth cameras and lidars in a realistic way. Try it out with ign gazebo particle_emitter.sdf 2.
+ * Heightmaps : Visualize 1 terrains, and soon collide with them too!
+ * COLLADA exporter : Generate 2 a COLLADA mesh from a simulation.
+
+ SENSORS
+ * Thermal camera : A thermal camera sensor 8 that supports objects with uniform or variable surface temperatures.
+ * Logical audio sensor : New sensor 1 that acts as a microphone to check if audio was detected coming from audio sources in the world.
+ * Optical tactile sensor : Sensor 1 that measures contact normals using a depth camera and a contact sensor.
+ * Laser retroreflection : Objects detected by Lidar can have custom retroreflection. Try ign gazebo gpu_lidar_retro_values_sensor.sdf 8.
+
+ MOBILE
+ Ackermann drive : There’s now an Ackermann steering plugin, try it out with ign gazebo ackermann_steering.sdf 9.
+ Mecanum drive : There’s also a Mecanum drive plugin, try it out with ign gazebo mecanum_drive.sdf 17.
+
+
+"""
+Rendering & Sensors : New visual effects and sensor features
+
+
+GUI : Lots of new GUI features and widgets
+    Lights : Insert, configure and visualize lights through the graphical interface or using Ignition Transport.
+    Tape measure : Measure distances in the 3D scene by clicking on them.
+    Joint controller : A joint position controller widget, try it out with the NAO robot on this world 4.
+    Collision visualization : View collision shapes on the graphical interface in order to better introspect running simulations.
+    Screenshot : Take screenshots 1 of running simulations and save them to disk with the click of a button.
+    Physics parameters : Configure real time factor and step size from the GUI.
+"""
+
+
+"""
