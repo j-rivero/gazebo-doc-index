@@ -11,8 +11,8 @@ subcategories:
       url: https://gazebosim.org/api/sensors/7/thermalcameraigngazebo.html
       desc: Supports objects with uniform or variable surface temperatures
       star: false
-
-  - tittle: Laser sensors
+      
+  - title: Laser sensors
     items:
     - title: Lidar sensor
       url: https://gazebosim.org/docs/garden/sensors#lidar-sensor
