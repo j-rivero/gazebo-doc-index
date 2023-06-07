@@ -18,10 +18,8 @@ FEATURES
  * COLLADA exporter : Generate 2 a COLLADA mesh from a simulation.
 
  SENSORS
- * Thermal camera : A thermal camera sensor 8 that supports objects with uniform or variable surface temperatures.
  * Logical audio sensor : New sensor 1 that acts as a microphone to check if audio was detected coming from audio sources in the world.
  * Optical tactile sensor : Sensor 1 that measures contact normals using a depth camera and a contact sensor.
- * Laser retroreflection : Objects detected by Lidar can have custom retroreflection. Try ign gazebo gpu_lidar_retro_values_sensor.sdf 8.
 
  MOBILE
  Ackermann drive : There’s now an Ackermann steering plugin, try it out with ign gazebo ackermann_steering.sdf 9.

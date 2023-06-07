@@ -1,45 +1,43 @@
 ---
 # Contribution guidelines:
-# https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md 
+# https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md
 
-title: "Sensors: The sensor catalogue"
-desc: "How to add already implemented sensors (camera, lasers, IMU, ...) to the gazebo models."
-subcategories: 
-  - title: "Camera sensor support"
-    items: 
-      - title: 'Camera Gazebo sensor'
-        url: 'http://gazebosim.org/tutorials?tut=camera_save&cat=sensors#Createaworldwithacamera'
-        desc: 'How to insert and use a simulated camera in Gazebo'
-        star: true
+title: Sensors in Gazebo
+desc: Simulated sensors available for Gazebo, lasers, cameras, etc.
+subcategories:
+  - title: Camera sensors
+    items:
+    - title: Thermal camera
+      url: https://gazebosim.org/api/sensors/7/thermalcameraigngazebo.html
+      desc: Supports objects with uniform or variable surface temperatures
+      star: false
 
-      - title: 'Camera sensor with distortion in Gazebo'
-        url: 'http://gazebosim.org/tutorials?tut=camera_distortion'
-        desc: 'How to simulate different camera distorsions in Gazebo'
-        star: true
-  
-  - title: 'Other sensors'
-    items: 
-      - title: 'Contact Gazebo sensor'
-        url: 'http://gazebosim.org/tutorials?tut=contact_sensor'
-        desc: 'Simulate a contact sensor that detects collisions between two object and reports the location of the contact associated forces.'
-        star: true
+  - tittle: Laser sensors
+    items:
+    - title: Lidar sensor
+      url: https://gazebosim.org/docs/garden/sensors#lidar-sensor
+      desc: Tutorial for the Lidar sensor plugin
+      star: true
+    - title: Laser retroreflection
+      url: https://github.com/gazebosim/gz-sim/blob/gz-sim7/examples/worlds/gpu_lidar_retro_values_sensor.sdf
+      desc: Example SDF supporting objects detected by Lidar that have custom retroreflection
+      star: false
 
-  - title: "Sensors integrated with ROS (gazebo_ros_pkgs)"
-    items: 
-      - title: 'Differences between the gazebo_ros_pkgs sensors and gazebo native sensors'
-        url: 'https://github.com/ros-simulation/gazebo_ros_pkgs/blob/kinetic-devel/SENSORS.md'
-        desc: 'How are gazebo_ros_pkgs sensors different from the native Gazebo sensors and why is it recommended to use them in ROS'
+  - title: Other sensors
+    items:
+      - title: Joint force-torque sensor
+        url: https://gazebosim.org/api/gazebo/6.0/classignition_1_1gazebo_1_1systems_1_1ForceTorque.html#details
+        desc: Reports forces and torques on a joint.
         star: true
-        
-      - title: 'Camera sensor in gazebo_ros_pkgs'
-        url: 'http://gazebosim.org/tutorials?tut=ros_gzplugins#Camera'
-        desc: 'ROS implementation for the Gazebo camera sensor simulaton'
+      - title: Contact sensor
+        url: https://gazebosim.org/docs/garden/sensors#contact-sensor
+        desc: Tutorial for the Gazebo contact sensor plugin
         star: true
 
-      - title: 'GPU Laser sensor in gazebo_ros_pkgs'
-        url: 'http://gazebosim.org/tutorials?tut=ros_gzplugins#GPULaser'
-        desc: 'ROS implementation for the GPU Laser sensor simulaton'
+  - title: Developing sensors
+    items:
+      - title: Creating custom sensors
+        url: https://gazebosim.org/api/sensors/7/custom_sensors.html
+        desc: How to create custom sensors to be used by Gazebo Sim
         star: true
-
-        
 ---
