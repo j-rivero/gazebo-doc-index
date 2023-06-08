@@ -20,6 +20,9 @@ subcategories:
         url: https://gazebosim.org/docs/all/comparison
         desc: Feature comparison between Gazebo Classic and latest Gazebo
         star: false
+      - title: Migrating from Gazebo Classic
+        url: https://gazebosim.org/api/sim/7/tutorials.html
+        desc: Gazebo Sim tutorials for migrating code from Gazebo classic
 
   - title: Installing on Linux
     items: 
@@ -45,13 +48,6 @@ subcategories:
         desc: Github repo containing the brew metadata about all Gazebo related packages.
         star: false
 
-  - title: Gazebo + ROS installation on Ubuntu Linux
-    items:
-      - title: Installing Gazebo with ROS
-        url: https://gazebosim.org/docs/all/ros_installation
-        desc: Main page documenting all the options of installing Gazebo and ROS together
-        star: true
-
   - title: Installing on Windows
     items:
       - title: Gazebo Sim runtime problems on Windows
@@ -63,4 +59,10 @@ subcategories:
         desc: Instruction to install the different Gazebo libraries on Windows using binaries 
         star: false
 
+  - title: Gazebo + ROS installation on Ubuntu Linux
+    items:
+      - title: Installing Gazebo with ROS
+        url: https://gazebosim.org/docs/all/ros_installation
+        desc: Main page documenting all the options of installing Gazebo and ROS together
+        star: true
 ---

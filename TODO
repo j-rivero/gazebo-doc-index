@@ -4,11 +4,6 @@ Processing https://docs.google.com/presentation/d/1Arw261f8Fye0QCghsXfHXR2VRFaJT
 
 ---
 
-FEATURES
-- Plotting https://community.gazebosim.org/t/gsoc-2020-plotting-tool-for-ignition/619
-
----
-
 >> Fortress video https://www.youtube.com/watch?v=aKpUSXgZXYM&t=2s&ab_channel=GazeboSim
 
 FEATURES
@@ -31,13 +26,10 @@ Rendering & Sensors : New visual effects and sensor features
 
 
 GUI : Lots of new GUI features and widgets
-    Lights : Insert, configure and visualize lights through the graphical interface or using Ignition Transport.
-    Tape measure : Measure distances in the 3D scene by clicking on them.
     Joint controller : A joint position controller widget, try it out with the NAO robot on this world 4.
-    Collision visualization : View collision shapes on the graphical interface in order to better introspect running simulations.
     Screenshot : Take screenshots 1 of running simulations and save them to disk with the click of a button.
     Physics parameters : Configure real time factor and step size from the GUI.
 """
 
 
-"""
+
