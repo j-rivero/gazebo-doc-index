@@ -3,7 +3,7 @@
 # https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md
 
 title: Installing and Setup Gazebo
-desc: Gazebo installation instructions, Large environments, Headless and CI.
+desc: Gazebo vs Gazebo Classic vs Ignition, Installation, Large environments, Headless and CI.
 subcategories:
 
   - title: Gazebo, Gazebo-Classic and Ignition
