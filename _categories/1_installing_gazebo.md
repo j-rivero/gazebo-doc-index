@@ -1,13 +1,13 @@
 ---
 # Contribution guidelines:
-# https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md 
+# https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md
 
 title: Installing Gazebo
 desc: Links related to the Gazebos installation instructions for different supported platforms
-subcategories: 
+subcategories:
 
   - title: Gazebo, Gazebo-Classic and Ignition
-    items: 
+    items:
       - title: Alter Ego of Gazebo
         url:  https://docs.google.com/presentation/d/1Arw261f8Fye0QCghsXfHXR2VRFaJTM2vicQs2_tuSnI/edit#slide=id.p
         desc: ICRA 2023 presentation about Gazebo, versions and features
@@ -25,7 +25,7 @@ subcategories:
         desc: Gazebo Sim tutorials for migrating code from Gazebo classic
 
   - title: Installing on Linux
-    items: 
+    items:
       - title: Choosing a Gazebo release (collection of Gazebo libs)
         url: https://gazebosim.org/docs
         desc: Main page with information on supported versions and platforms
@@ -56,7 +56,7 @@ subcategories:
         star: true
       - title: Installation of latest Gazebo libraries on Windows
         url: https://gazebosim.org/docs/all/install_windows
-        desc: Instruction to install the different Gazebo libraries on Windows using binaries 
+        desc: Instruction to install the different Gazebo libraries on Windows using binaries
         star: false
 
   - title: Gazebo + ROS installation on Ubuntu Linux
@@ -65,4 +65,21 @@ subcategories:
         url: https://gazebosim.org/docs/all/ros_installation
         desc: Main page documenting all the options of installing Gazebo and ROS together
         star: true
+
+  - title: Large environments resources
+    items:
+     - title: Distributed Gazebo simulations
+       url: https://gazebosim.org/api/sim/7/distributedsimulation.html
+       desc: Distribute the simulation among 1 or more processes and machines
+       star: true
+     - title: Gazebo Simulator Levels
+       url: https://gazebosim.org/api/sim/7/levels.html
+       desc: Feature thatallows loading and unloading objects in simulation according to their proximity to the robot
+       star: true
+     - title: Gazebo Trivial Physics Engine (TPE)
+       url: https://community.gazebosim.org/t/announcing-new-physics-engine-tpe-trivial-physics-engine/629
+       desc: Physics for fast simulation of higher-order fleet dynamics without real physics.
+
 ---
+
+
