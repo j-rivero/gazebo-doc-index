@@ -18,6 +18,29 @@ subcategories:
         desc: The talk serves to define best practices of integrating simulation with ROS 2
         star: true
 
+  - title: "Description formats: URDF, SDF and others"
+    items:
+      - title: URDF to SDFormat - The use of URDF in Gazebo Sim
+        url: http://sdformat.org/tutorials?tut=sdformat_urdf_extensions&cat=specification&
+        desc: Convert and complete an URDF file for its use in Gazebo
+        star: true
+      - title: SDFormat XML Robot Descriptions in ROS
+        ur: https://github.com/ros/sdformat_urdf
+        desc: Using SDFormat XML as a robot description format instead of URDF XML
+        star: false
+      - title: Description templates repository
+        url: https://github.com/chapulina/desplate
+        desc: The repository contains various examples for how to template description files in ROS 2
+        star: false
+      - title: Bidirectional SDF <-> Universal Scene Description (USD) converter
+        url: https://github.com/gazebosim/gz-usd/blob/main/README.md
+        desc: gz-usd - Repository containing tools to convert USD and SDFormat
+        star: false
+      - title: Biderectional SDF <-> MJCF (Mujoco)
+        url: http://sdformat.org/tutorials?tut=interoperability_formats&cat=developers&#mjcf
+        desc: Tutorials for converting between SDF and MJCF formats
+        star: false
+
   - title: Gazebo with Moveit2/ros2_controls 
     items:
       - title: Ign Moveit2 Examples repositories
