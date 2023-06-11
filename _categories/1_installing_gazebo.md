@@ -24,32 +24,24 @@ subcategories:
         url: https://gazebosim.org/api/sim/7/tutorials.html
         desc: Gazebo Sim tutorials for migrating code from Gazebo classic
 
-  - title: Installing on Linux
+  - title: Installing on Linux, MacOSX and Windows
     items:
       - title: Choosing a Gazebo release (collection of Gazebo libs)
         url: https://gazebosim.org/docs
         desc: Main page with information on supported versions and platforms
         star: true
-
-  - title: Installing on MacOSX
-    items:
       - title: Supported OSX versions
         url: https://gazebosim.org/docs
         desc: Which OSX versions are supported by Gazebo
         star: true
-
       - title: Brew installation
         url: https://gazebosim.org/docs/latest/install_osx
         desc: Guide to go through all the steps to install Gazebo using the Brew package manager
         star: true
-
       - title: Brew Gazebo repository
         url: https://github.com/osrf/homebrew-simulation
         desc: Github repo containing the brew metadata about all Gazebo related packages.
         star: false
-
-  - title: Installing on Windows
-    items:
       - title: Gazebo Sim runtime problems on Windows
         url: https://github.com/gazebosim/gz-sim/issues/168
         desc: Latest updates on the problems to run Gazebo Sim on Windows
