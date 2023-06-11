@@ -3,7 +3,7 @@
 # https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md
 
 title: Installing and Setup Gazebo
-desc: Links related to the Gazebos installation instructions for different supported platforms
+desc: Gazebo installation instructions, Large environments, Headless and CI.
 subcategories:
 
   - title: Gazebo, Gazebo-Classic and Ignition
@@ -79,6 +79,22 @@ subcategories:
      - title: Gazebo Trivial Physics Engine (TPE)
        url: https://community.gazebosim.org/t/announcing-new-physics-engine-tpe-trivial-physics-engine/629
        desc: Physics for fast simulation of higher-order fleet dynamics without real physics.
+       star: false
+
+  - title: Headless simulations and CI
+    items:
+     - title: Headless EGL rendering (native)
+       url: https://gazebosim.org/api/gazebo/6.7/headless_rendering.html
+       desc: Rendering without an X server using Ogre-next EGL capabilities
+       star: true
+     - title: Headless EGL rendering (XVFB + VirtualGL)
+       url: https://community.gazebosim.org/t/egl-support-is-available-in-ignition-fortress/1183/2
+       desc: Workaround to get headless EGL rendering XVFB with an EGL render from VirtualGL
+       star: false
+     - title: Gazebo Test Fixture helper
+       url: https://gazebosim.org/api/gazebo/7/test_fixture.html
+       desc: Handy code for using Gazebo in a test suite.
+       star: true
 
 ---
 
