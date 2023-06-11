@@ -2,7 +2,7 @@
 # Contribution guidelines:
 # https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md
 
-title: Installing Gazebo
+title: Installing and Setup Gazebo
 desc: Links related to the Gazebos installation instructions for different supported platforms
 subcategories:
 
