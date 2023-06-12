@@ -1,4 +1,4 @@
- ---
+---
 # Contribution guidelines:
 # https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md
 
@@ -97,5 +97,3 @@ subcategories:
        star: false
 
 ---
-
-
