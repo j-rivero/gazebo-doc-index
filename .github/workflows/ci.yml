@@ -14,12 +14,6 @@ jobs:
           ruby-version: '3.0'
           bundler-cache: true
 
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundler update --bundler
-          gem install jekyll html-proofer
-
       - name: Build and test
         run: |
           bundle exec jekyll build
