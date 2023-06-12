@@ -33,6 +33,10 @@ subcategories:
         url: https://gazebosim.org/docs/garden/sensors#contact-sensor
         desc: Tutorial for the Gazebo contact sensor plugin
         star: true
+      - title: Battery sensor
+        url: https://gazebosim.org/api/sim/7/battery.html
+        desc: Tutorial for a battery system keeps track of the battery charge on a robot model.
+        star: true
 
   - title: Developing sensors
     items:

@@ -1,4 +1,4 @@
----
+ ---
 # Contribution guidelines:
 # https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md
 
@@ -83,10 +83,18 @@ subcategories:
        url: https://community.gazebosim.org/t/egl-support-is-available-in-ignition-fortress/1183/2
        desc: Workaround to get headless EGL rendering XVFB with an EGL render from VirtualGL
        star: false
+     - title: Digital Elevation Maps
+       url: https://github.com/gazebosim/docs/issues/334
+       desc: Hints to use the Digital Elevation Maps (DEM) support in Gazebo Sim
+       star: false
      - title: Gazebo Test Fixture helper
        url: https://gazebosim.org/api/gazebo/7/test_fixture.html
        desc: Handy code for using Gazebo in a test suite.
        star: true
+     - title: Reset Simulations in Gazebo
+       url: https://gazebosim.org/api/sim/7/reset_simulation.html
+       desc: Tutorial for reseting the simulation to time zero.
+       star: false
 
 ---
 
