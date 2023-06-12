@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundler update --bundler
+          gem install jekyll html-proofer
+
+      - name: Build and test
+        run: |
+          bundle exec jekyll build
+          bundle exec htmlproofer ./_site --url-ignore "/gazebo-doc-index/*/"
+          bundle exec rspec --format doc
