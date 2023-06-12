@@ -6,10 +6,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env: 
+      BUNDLE_GEMFILE: Gemfile
 
     steps:
       - name: setup ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby
         with:
           ruby-version: '3.0'
           bundler-cache: true
