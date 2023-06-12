@@ -3,7 +3,7 @@
 # https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md
 
 title: Installing and Setup Gazebo
-desc: Gazebo vs Gazebo Classic vs Ignition, Installation, Large environments, Headless and CI.
+desc: Gazebo vs Gazebo Classic vs Ignition, Installation, Virtualization, Large environments, Headless and CI.
 subcategories:
 
   - title: Gazebo, Gazebo-Classic and Ignition
@@ -49,6 +49,18 @@ subcategories:
       - title: Installation of latest Gazebo libraries on Windows
         url: https://gazebosim.org/docs/all/install_windows
         desc: Instruction to install the different Gazebo libraries on Windows using binaries
+        star: false
+
+  - title: Gazebo on virtualized environments
+    items:
+      - title: Docker on Nvidia for Gazebo releases using ign-rocker
+        url: https://github.com/adlarkin/ign-rocker
+        desc: A set of rocker extensions that enable the usage of Gazebo libraries inside Docker
+        star: true
+
+      - title: Gzdev plugin for simple docker access in different Gazebo releases
+        url: https://github.com/gazebo-tooling/gzdev#ign-docker-env
+        desc: Plugin for gzdev that simplies accessing to a virtualized Gazebo collection environment
         star: false
 
   - title: Gazebo + ROS installation on Ubuntu Linux
