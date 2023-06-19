@@ -50,6 +50,10 @@ subcategories:
         url: https://gazebosim.org/docs/all/install_windows
         desc: Instruction to install the different Gazebo libraries on Windows using binaries
         star: false
+      - title: Multiplatform conda-forge Gazebo installation
+        url: https://www.youtube.com/watch?v=CY-_Yvu0ya0&ab_channel=GazeboSim
+        desc: Conda introduction and how to install Gazebo using it
+        star: true
 
   - title: Gazebo on virtualized environments
     items:
