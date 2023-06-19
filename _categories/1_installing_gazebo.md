@@ -84,6 +84,10 @@ subcategories:
        url: https://community.gazebosim.org/t/announcing-new-physics-engine-tpe-trivial-physics-engine/629
        desc: Physics for fast simulation of higher-order fleet dynamics without real physics.
        star: false
+     - title: Creating model populations programatically
+       url: https://community.gazebosim.org/t/creating-a-model-population-in-gazebo-garden/2060/2
+       desc: ERB Templates in SDFormat to create model populations
+       star: false
 
   - title: Headless simulations and CI
     items:
