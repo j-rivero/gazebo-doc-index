@@ -13,4 +13,11 @@ subcategories:
         desc: ROSCon 2022 presentation of Marine features in Gazebo
         star: true
 
+  - title: Datasets, Machine Learning and IA
+    items:
+     - title: Generating Computer Vision datasets
+       url: https://www.linkedin.com/posts/ahcorde_ignition-sensors-activity-7076878705511325697-705o/
+       desc: Gazebo Sensor tutorial for generating CV datasets
+       star: true
+
 ---
