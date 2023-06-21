@@ -92,6 +92,10 @@ subcategories:
        url: https://community.gazebosim.org/t/creating-a-model-population-in-gazebo-garden/2060/2
        desc: ERB Templates in SDFormat to create model populations
        star: false
+     - title: Building Map Generator
+       url: https://osrf.github.io/ros2multirobotbook/simulation.html#building-map-generator
+       desc: Open-RMF GUI tool to generate large building maps ready to use in Gazebo
+       star: false
 
   - title: Headless simulations and CI
     items:
