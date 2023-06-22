@@ -18,6 +18,11 @@ subcategories:
         desc: The talk serves to define best practices of integrating simulation with ROS 2
         star: true
 
+      - title: Project layout templates for Gazebo + ROS projects
+        url: https://github.com/gazebosim/ros_gz_project_template
+        desc: Directory layout and minimal code to serve as the base for new Gazebo + ROS projects
+        star: true
+
   - title: "Description formats: URDF, SDF and others"
     items:
       - title: URDF to SDFormat - The use of URDF in Gazebo Sim
