@@ -13,6 +13,13 @@ subcategories:
         desc: ROSCon 2022 presentation of Marine features in Gazebo
         star: true
 
+  - title: Drones
+    items:
+      - title: ROS 2 and Gazebo integration to control multiple vehicles
+        url: https://community.gazebosim.org/t/community-meeting-multi-vehicle-simulation-with-ros-2-and-gazebo/2073
+        desc: Interaction with PX4 Autopilot and Betaflight for Gazebo/ROS 2 simulations
+        star: true
+
   - title: Datasets, Machine Learning and IA
     items:
      - title: Generating Computer Vision datasets
