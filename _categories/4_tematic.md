@@ -13,6 +13,11 @@ subcategories:
         desc: ROSCon 2022 presentation of Marine features in Gazebo
         star: true
 
+      - title: Simulate surface waves
+        url: https://community.gazebosim.org/t/simulate-surface-waves-and-marine-vehicle-dynamics/1268
+        desc: Information about changes in the Gazebo simulator done to support better waves simulation
+        star: false
+
   - title: Drones
     items:
       - title: ROS 2 and Gazebo integration to control multiple vehicles
@@ -25,6 +30,11 @@ subcategories:
      - title: Generating Computer Vision datasets
        url: https://www.linkedin.com/posts/ahcorde_ignition-sensors-activity-7076878705511325697-705o/
        desc: Gazebo Sensor tutorial for generating CV datasets
+       star: true
+
+     - title: Deep reinforcement learning manipulation ROS 2 + MoveIt2 + Gazebo + OpenAI Gym
+       url: https://github.com/AndrejOrsula/drl_grasping
+       desc: Example of integration of a Gazebo simulation with ROS 2 and OpenAI using grasping
        star: true
 
 ---
