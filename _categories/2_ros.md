@@ -30,7 +30,7 @@ subcategories:
         desc: Convert and complete an URDF file for its use in Gazebo
         star: true
       - title: SDFormat XML Robot Descriptions in ROS
-        ur: https://github.com/ros/sdformat_urdf
+        url: https://github.com/ros/sdformat_urdf
         desc: Using SDFormat XML as a robot description format instead of URDF XML
         star: false
       - title: Description templates repository
