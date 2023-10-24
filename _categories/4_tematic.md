@@ -25,6 +25,10 @@ subcategories:
         desc: Interaction with PX4 Autopilot and Betaflight for Gazebo/ROS 2 simulations
         star: true
 
+      - title: "Aerostack2 Gazebo Assets: drone models, sensors and worlds"
+        url: https://github.com/aerostack2/aerostack2/tree/main/as2_simulation_assets/as2_ign_gazebo_assets#world-models
+        desc: Drone models (quadrotor, hexrotor and crzyflie), Drone sensors and Worlds from the Areostack2
+
   - title: Datasets, Machine Learning and IA
     items:
      - title: Generating Computer Vision datasets
@@ -36,5 +40,10 @@ subcategories:
        url: https://github.com/AndrejOrsula/drl_grasping
        desc: Example of integration of a Gazebo simulation with ROS 2 and OpenAI using grasping
        star: true
+
+
+# To be put under a development section
+# Custom protobuf messages
+# https://github.com/jrutgeer/gazebo_assorted_tests/tree/main/custom_protobuf_msgs
 
 ---

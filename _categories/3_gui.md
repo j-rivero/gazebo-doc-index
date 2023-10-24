@@ -11,7 +11,7 @@ subcategories:
         url: https://gazebosim.org/docs/all/gui
         desc: Official tutorial explaning the basics of the Gazebo Sim GUI.
         star: true
-      - title:  Plotting tool for Gazebo
+      - title: Plotting tool for Gazebo
         url: https://community.gazebosim.org/t/gsoc-2020-plotting-tool-for-ignition/619
         desc: GSoC 2020 about the adding plotting capabilities to Gazebo Sim.
         star: false
