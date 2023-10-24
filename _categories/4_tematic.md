@@ -28,6 +28,12 @@ subcategories:
       - title: "Aerostack2 Gazebo Assets: drone models, sensors and worlds"
         url: https://github.com/aerostack2/aerostack2/tree/main/as2_simulation_assets/as2_ign_gazebo_assets#world-models
         desc: Drone models (quadrotor, hexrotor and crzyflie), Drone sensors and Worlds from the Areostack2
+        star: false
+
+      - title: UAV models ready to use in app.gazebosim.org
+        url: https://app.gazebosim.org/search;q=UAV
+        desc: Several UAVs available in app.gazebosim.org ready to use
+        star: false
 
   - title: Datasets, Machine Learning and IA
     items:
