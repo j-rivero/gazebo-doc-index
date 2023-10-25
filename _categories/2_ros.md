@@ -53,4 +53,16 @@ subcategories:
         desc: C++ and Python examples of using MoveIt 2 for planning motions that are executed inside Gazebo simulation environment
         star: true
 
+  - title: Gazebo with Nav2
+    items:
+      - title: Gazebo Fortress/Garden Nav2 examples on ROS 2 Humble
+        url: https://discourse.ros.org/t/nav2-example-with-ignition-gazebo-fortress/31174
+        desc: Community examples of Nav2 using Gazebo Fortress and Garden on ROS 2 Humble
+        star: true
+
+      - title: Turtlebot3 support for the new Gazebo
+        url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations/issues/196
+        desc: Issue with information about the support of Gazebo in the Turtlebot3
+        star: false
+
 ---
