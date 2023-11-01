@@ -75,15 +75,15 @@ subcategories:
         star: true
 
   - title: Large environments resources
-    items:
-     - title: Distributed Gazebo simulations
-       url: https://gazebosim.org/api/sim/7/distributedsimulation.html
-       desc: Distribute the simulation among 1 or more processes and machines
-       star: true
+    items:     
      - title: Gazebo Simulator Levels
        url: https://gazebosim.org/api/sim/7/levels.html
        desc: Feature thatallows loading and unloading objects in simulation according to their proximity to the robot
        star: true
+     - title: Distributed Gazebo simulations
+       url: https://gazebosim.org/api/sim/7/distributedsimulation.html
+       desc: Distribute the simulation among 1 or more processes and machines. Might be harder to setup to gain performance.
+       star: false
      - title: Gazebo Trivial Physics Engine (TPE)
        url: https://community.gazebosim.org/t/announcing-new-physics-engine-tpe-trivial-physics-engine/629
        desc: Physics for fast simulation of higher-order fleet dynamics without real physics.
