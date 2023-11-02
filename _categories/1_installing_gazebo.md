@@ -54,6 +54,10 @@ subcategories:
         url: https://www.youtube.com/watch?v=CY-_Yvu0ya0&ab_channel=GazeboSim
         desc: Conda introduction and how to install Gazebo using it
         star: true
+      - title: WSLg with GPU support for Gazebo Garden and Harmonic
+        url: https://community.gazebosim.org/t/wslg-with-gpu-support-available-on-latest-version-of-gazebo-garden-and-harmonic/2360/1
+        desc: Windows Subsystem for Linux GUI installation with GPU support
+        star: true
 
   - title: Gazebo on virtualized environments
     items:
