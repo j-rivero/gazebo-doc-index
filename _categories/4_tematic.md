@@ -3,20 +3,8 @@
 # https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md
 
 title: Tematic robotics areas
-desc: Automobile, Drones, Maritime, Space, etc.
+desc: Automobile, Drones, IA, Manipulation, Maritime, Space, etc.
 subcategories:
-
-  - title: Maritime robotics
-    items:
-      - title: Marine Simulation - From Reality to Gazebo and Back Again
-        url: https://vimeo.com/showcase/9954564/video/767140641
-        desc: ROSCon 2022 presentation of Marine features in Gazebo
-        star: true
-
-      - title: Simulate surface waves
-        url: https://community.gazebosim.org/t/simulate-surface-waves-and-marine-vehicle-dynamics/1268
-        desc: Information about changes in the Gazebo simulator done to support better waves simulation
-        star: false
 
   - title: Drones
     items:
@@ -35,7 +23,31 @@ subcategories:
         desc: Several UAVs available in app.gazebosim.org ready to use
         star: false
 
-  - title: Datasets, Machine Learning and IA
+  - title: Manipulation
+    items:
+      - title: Gazebo features helpful for manipulation
+        url: https://docs.google.com/presentation/d/1UZiUxXx4DFY1GWSX4QJ4i8enxv67agXNuEbr4t4tBJM/edit#slide=id.g2110547bca0_1_27
+        desc: Features in Gazebo that are relevant for manipulation (pages 44-47 form the ICRA 23 slides)
+        star: true
+
+    - title: ROS Moveit2 and Gazebo example repository
+        url: https://github.com/AndrejOrsula/ign_moveit2_examples
+        desc: C++ and Python examples of using MoveIt 2 for planning motions that are executed inside Gazebo simulation environment
+        star: true
+
+  - title: Maritime robotics
+    items:
+      - title: Marine Simulation - From Reality to Gazebo and Back Again
+        url: https://vimeo.com/showcase/9954564/video/767140641
+        desc: ROSCon 2022 presentation of Marine features in Gazebo
+        star: true
+
+      - title: Simulate surface waves
+        url: https://community.gazebosim.org/t/simulate-surface-waves-and-marine-vehicle-dynamics/1268
+        desc: Information about changes in the Gazebo simulator done to support better waves simulation
+        star: false
+
+  - title: IA, Datasets and Machine Learning.
     items:
      - title: Generating Computer Vision datasets
        url: https://www.linkedin.com/posts/ahcorde_ignition-sensors-activity-7076878705511325697-705o/
