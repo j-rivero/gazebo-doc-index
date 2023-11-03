@@ -2,7 +2,7 @@
 # Contribution guidelines:
 # https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md
 
-title: Tematic robotics areas
+title: Thematic robotics areas
 desc: Automobile, Drones, IA, Manipulation, Maritime, Space, etc.
 subcategories:
 
@@ -30,7 +30,7 @@ subcategories:
         desc: Features in Gazebo that are relevant for manipulation (pages 44-47 form the ICRA 23 slides)
         star: true
 
-    - title: ROS Moveit2 and Gazebo example repository
+      - title: ROS Moveit2 and Gazebo example repository
         url: https://github.com/AndrejOrsula/ign_moveit2_examples
         desc: C++ and Python examples of using MoveIt 2 for planning motions that are executed inside Gazebo simulation environment
         star: true
