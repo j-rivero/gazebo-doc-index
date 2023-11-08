@@ -18,6 +18,11 @@ subcategories:
         desc: Drone models (quadrotor, hexrotor and crzyflie), Drone sensors and Worlds from the Areostack2
         star: false
 
+      - title: Betaflight support in Gazebo
+        url: https://betaflight.com/docs/development/SITL#sitl-in-gazebo
+        desc: SITL (software in the loop) Gazebo simulation allows you to run Betaflight without any hardware
+        star: false
+
       - title: UAV models ready to use in app.gazebosim.org
         url: https://app.gazebosim.org/search;q=UAV
         desc: Several UAVs available in app.gazebosim.org ready to use
