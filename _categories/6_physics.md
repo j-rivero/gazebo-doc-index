@@ -19,4 +19,10 @@ subcategories:
       desc: Enforces a linear relationship between the output position of two joint axes (previosly known in Gazebo Classic as gearbox joint)
       star: false
  
+  - title: Tools
+    items:
+    - title: Automatically Computing Moments of Inertia for SDFormat Links
+      url: https://community.gazebosim.org/t/gsoc-2023-automatically-computing-moments-of-inertia-for-sdformat-links/2267
+      desc: Automatic computation of Moments of Inertia for SDFormat Links in simulation
+      start: true
 ---
