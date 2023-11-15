@@ -15,6 +15,9 @@ subcategories:
         url: https://www.youtube.com/watch?v=9gKuzAiWK0I
         desc: Video presentation of the Fuel project by his authors
         star: false
+      - title: Upload models to Fuel
+        url: https://gazebosim.org/api/gazebo/7.0/meshtofuel.html
+        desc: Official tutorial to upload new models to Fuel
 
   - title: Developing new models for Gazebo
     items:
