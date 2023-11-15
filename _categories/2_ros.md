@@ -1,10 +1,10 @@
 ---
 # Contribution guidelines:
-# https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md 
+# https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md
 
 title: Gazebo and ROS
 desc: Links related to the use of Gazebo together with ROS (Robot Operative System)
-subcategories: 
+subcategories:
 
   - title: Installation & Basics
     items:
@@ -46,7 +46,18 @@ subcategories:
         desc: Tutorials for converting between SDF and MJCF formats
         star: false
 
-  - title: Gazebo with Moveit2/ros2_controls 
+  - title: Gazebo sensors and plugins in ROS
+    items:
+      - title: Examples and tutorials for Gazebo sensors on ROS 2
+        url: https://github.com/gazebosim/ros_gz/blob/ros2/ros_gz_sim_demos/README.md
+        desc: Examples and images about the use Gazebo sensors in ROS 2 with the ros_gz bridge
+        star: true
+      - title: Examples and tutorials for Gazebo sensors on ROS 1 Noetic
+        url: https://github.com/gazebosim/ros_gz/tree/noetic/ros_ign_gazebo_demos
+        desc: Examples and images about the use Gazebo sensors in ROS 1 with the ros_gz/ros_ign bridge
+        star: true
+
+  - title: Gazebo with Moveit2/ros2_controls
     items:
       - title: Ign Moveit2 Examples repositories
         url: https://github.com/AndrejOrsula/ign_moveit2_examples
