@@ -42,6 +42,13 @@ subcategories:
         desc: Tutorial for a battery system keeps track of the battery charge on a robot model.
         star: true
 
+  - title: Finding sensor examples
+    item:
+      - title: Raw list of Gazebo sensor resources and examples
+        url: https://github.com/gazebosim/gazebo_test_cases/issues?q=sensor+label%3Abinary+label%3A%22Ubuntu+Jammy%22
+        desc: Sensor search in the tutorial party resources listed for Gazebo community to be reviewed
+        star: false
+
   - title: Developing sensors
     items:
       - title: Creating custom sensors
