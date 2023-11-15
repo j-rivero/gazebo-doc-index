@@ -25,6 +25,17 @@ subcategories:
        desc: Open Robotics Middleware Framework large scenarios demos for Gazebo and ROS
        star: true
 
+  - title: Developing new Worlds and Robots for Gazebo
+    items:
+      - title: Building a Robot tutorial
+        url: https://gazebosim.org/docs/harmonic/building_robot
+        desc: Official tutorial for creating a sample robot from scratch
+        star: true
+      - title: Creating SDF Worlds
+        url:https://gazebosim.org/docs/harmonic/sdf_worlds
+        desc: Official tutorial describing the creation of an SDF world
+        star: true
+
   - title: Developing new 3D models for Gazebo
     items:
       - title: Creating complex models and worlds in Gazebo
