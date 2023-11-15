@@ -100,6 +100,10 @@ subcategories:
        url: https://osrf.github.io/ros2multirobotbook/simulation.html#building-map-generator
        desc: Open-RMF GUI tool to generate large building maps ready to use in Gazebo
        star: false
+     - title: OpenRMF demos
+       url: https://github.com/open-rmf/rmf_demos/tree/main 
+       desc: Open Robotics Middleware Framework large scenarios demos for Gazebo and Gazebo Classic
+       star: true
 
   - title: Headless simulations and CI
     items:

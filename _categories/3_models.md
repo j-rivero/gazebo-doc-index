@@ -2,8 +2,8 @@
 # Contribution guidelines:
 # https://github.com/j-rivero/gazebo-doc-index/blob/master/CONTRIBUTING.md
 
-title: 3D Models
-desc: 3D Models ready to use and documentation to create new ones
+title: Worlds and 3D Models
+desc: Gazebo Worlds and 3D Models ready to use and documentation to create new ones
 subcategories:
   - title: "Fuel: the big collection of simulation assets"
     items:
@@ -19,7 +19,13 @@ subcategories:
         url: https://gazebosim.org/api/gazebo/7.0/meshtofuel.html
         desc: Official tutorial to upload new models to Fuel
 
-  - title: Developing new models for Gazebo
+  - title: World and examples ready to use
+     - title: OpenRMF demos
+       url: https://github.com/open-rmf/rmf_demos/tree/main
+       desc: Open Robotics Middleware Framework large scenarios demos for Gazebo and ROS
+       star: true
+
+  - title: Developing new 3D models for Gazebo
     items:
       - title: Creating complex models and worlds in Gazebo
         url: https://robotics.stackexchange.com/questions/24926/how-do-people-create-complex-models-worlds-in-the-gazebo/
@@ -31,8 +37,12 @@ subcategories:
         star: false
       - title: What is Gazebo rendering
         url: https://youtu.be/JugZs9rzpKM?t=1218
-        desc: Introduction to Gazebo rendering 
+        desc: Introduction to Gazebo rendering
         star: false
+     - title: Building Map Generator
+       url: https://osrf.github.io/ros2multirobotbook/simulation.html#building-map-generator
+       desc: Open-RMF GUI tool to generate large building maps ready to use in Gazebo
+       star: false
 
   - title: Formats and modelling tools
     items:
