@@ -49,6 +49,13 @@ subcategories:
         desc: Sensor search in the tutorial party resources listed for Gazebo community to be reviewed
         star: false
 
+  - title: Gazebo sensors and ROS
+    itme:
+      - title: Examples and tutorials for Gazebo sensors on ROS 2
+        url: https://github.com/gazebosim/ros_gz/blob/ros2/ros_gz_sim_demos/README.md
+        desc: Examples and images about the use Gazebo sensors in ROS 2 with the ros_gz bridge
+        star: true
+
   - title: Developing sensors
     items:
       - title: Creating custom sensors
