@@ -20,10 +20,11 @@ subcategories:
         desc: Official tutorial to upload new models to Fuel
 
   - title: World and examples ready to use
-     - title: OpenRMF demos
-       url: https://github.com/open-rmf/rmf_demos/tree/main
-       desc: Open Robotics Middleware Framework large scenarios demos for Gazebo and ROS
-       star: true
+    items:
+      - title: OpenRMF demos
+        url: https://github.com/open-rmf/rmf_demos/tree/main
+        desc: Open Robotics Middleware Framework large scenarios demos for Gazebo and ROS
+        star: true
 
   - title: Developing new Worlds and Robots for Gazebo
     items:
