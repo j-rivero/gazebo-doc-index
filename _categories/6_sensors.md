@@ -43,14 +43,14 @@ subcategories:
         star: true
 
   - title: Finding sensor examples
-    item:
+    items:
       - title: Raw list of Gazebo sensor resources and examples
         url: https://github.com/gazebosim/gazebo_test_cases/issues?q=sensor+label%3Abinary+label%3A%22Ubuntu+Jammy%22
         desc: Sensor search in the tutorial party resources listed for Gazebo community to be reviewed
         star: false
 
   - title: Gazebo sensors and ROS
-    itme:
+    items:
       - title: Examples and tutorials for Gazebo sensors on ROS 2
         url: https://github.com/gazebosim/ros_gz/blob/ros2/ros_gz_sim_demos/README.md
         desc: Examples and images about the use Gazebo sensors in ROS 2 with the ros_gz bridge
