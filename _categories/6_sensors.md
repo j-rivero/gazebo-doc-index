@@ -7,6 +7,10 @@ desc: Simulated sensors available for Gazebo, lasers, cameras, etc.
 subcategories:
   - title: Camera sensors
     items:
+    - title: Depth camera
+      url: https://github.com/gazebosim/gz-rendering/blob/gz-rendering7/tutorials/23_depth_camera_tutorial.md
+      desc: Example code and depth camera tutorial in the gz-rendering repository
+      star: true
     - title: Thermal camera
       url: https://gazebosim.org/api/sensors/7/thermalcameraigngazebo.html
       desc: Supports objects with uniform or variable surface temperatures
