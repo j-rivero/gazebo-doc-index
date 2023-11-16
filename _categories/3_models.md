@@ -33,7 +33,7 @@ subcategories:
         desc: Official tutorial for creating a sample robot from scratch
         star: true
       - title: Creating SDF Worlds
-        url:https://gazebosim.org/docs/harmonic/sdf_worlds
+        url: https://gazebosim.org/docs/harmonic/sdf_worlds
         desc: Official tutorial describing the creation of an SDF world
         star: true
 
