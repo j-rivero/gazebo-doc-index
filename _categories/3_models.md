@@ -51,10 +51,10 @@ subcategories:
         url: https://youtu.be/JugZs9rzpKM?t=1218
         desc: Introduction to Gazebo rendering
         star: false
-     - title: Building Map Generator
-       url: https://osrf.github.io/ros2multirobotbook/simulation.html#building-map-generator
-       desc: Open-RMF GUI tool to generate large building maps ready to use in Gazebo
-       star: false
+      - title: Building Map Generator
+        url: https://osrf.github.io/ros2multirobotbook/simulation.html#building-map-generator
+        desc: Open-RMF GUI tool to generate large building maps ready to use in Gazebo
+        star: false
 
   - title: Formats and modelling tools
     items:
