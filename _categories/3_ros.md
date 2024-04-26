@@ -13,15 +13,21 @@ subcategories:
         desc: Main page documenting all the options of installing Gazebo and ROS together
         star: true
 
-      - title: ROS 2 and Gazebo Integration Best Practices
-        url: https://vimeo.com/showcase/9954564/video/767127300
-        desc: The talk serves to define best practices of integrating simulation with ROS 2
+      - title: ROS 2 and Gazebo Examples
+        url: https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_sim_demos
+        desc: Code demos showing the Gazebo and ROS 2 integration
         star: true
 
-      - title: Project layout templates for Gazebo + ROS projects
+      - title: Project layout templates for Gazebo + ROS 2 projects
         url: https://github.com/gazebosim/ros_gz_project_template
         desc: Directory layout and minimal code to serve as the base for new Gazebo + ROS projects
         star: true
+
+      - title: ROS 2 and Gazebo Integration Best Practices
+        url: https://vimeo.com/showcase/9954564/video/767127300
+        desc: The talk serves to define best practices of integrating simulation with ROS 2
+        star: false
+
 
   - title: "Description formats: URDF, SDF and others"
     items:
