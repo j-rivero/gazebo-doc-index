@@ -18,7 +18,7 @@ subcategories:
         desc: Official tutorial for getting started with Python bindings for gz-math
         star: true
 
-  - tittle: Transport and messages
+  - title: Transport and messages
     items:
       - title: Custom protobuf messages with gz-msgs
         url: https://gazebosim.org/api/math/8/pythongetstarted.html
