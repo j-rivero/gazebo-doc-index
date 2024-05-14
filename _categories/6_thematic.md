@@ -63,10 +63,4 @@ subcategories:
        url: https://github.com/AndrejOrsula/drl_grasping
        desc: Example of integration of a Gazebo simulation with ROS 2 and OpenAI using grasping
        star: true
-
-
-# To be put under a development section
-# Custom protobuf messages
-# https://github.com/jrutgeer/gazebo_assorted_tests/tree/main/custom_protobuf_msgs
-
 ---
