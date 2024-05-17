@@ -52,6 +52,11 @@ subcategories:
         desc: Information about changes in the Gazebo simulator done to support better waves simulation
         star: false
 
+      - title: Video of the Virtual RobotX competition (autonomous surface vehicales)
+        url: https://www.youtube.com/watch?v=l97bJ7OO0Iw
+        desc: Highlights of the VRX competition showing Gazebo for autonomous surface vehicles
+        star: false
+
   - title: IA, Datasets and Machine Learning.
     items:
      - title: Generating Computer Vision datasets
