@@ -16,6 +16,17 @@ subcategories:
       desc: Details and information on Gazebo TPE
       star: false
 
+  - title: DART physics engine (default in Gazebo)
+    items:
+    - title: Contact coefficients and parameters
+      url: https://github.com/gazebosim/gz-physics/issues/636#issuecomment-2115807874
+      desc: Issue with pointers for the support of mu, mu2, slip1, slip2, fdir, restitution, collide_bitmask in SDFormat.
+      start: true
+    - title: Error Reduction Parameter (ERP) and Constraint Force Mixing (CFM) in DART
+      url: https://github.com/gazebosim/gz-physics/issues/636#issuecomment-2117628547
+      desc: Issue with information about ERP and CFM in DART and gz-physics
+      star: true
+
   - title: Joints
     items:
     - title: Joint mimic constraint
