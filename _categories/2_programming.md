@@ -25,4 +25,10 @@ subcategories:
         desc: Define custom protobuf messages that reuse gz-msgs or are hosted in an external repository
         star: false
 
+  - title: Working with Camera Images
+    items:
+     - title: Processing camera images
+       url: https://community.gazebosim.org/t/seeking-a-way-for-processing-gazebo-garden-camera-sensor-data-without-ros/2604/
+       desc: Thread with options about how to retrieve and process camera images
+       star: false
 ---
