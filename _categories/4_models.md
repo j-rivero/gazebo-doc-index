@@ -62,4 +62,8 @@ subcategories:
         url: https://gazebosim.org/api/rendering/8/transform_fbx_to_dae.html
         desc: Use Blender to transform FBX files to DAE to be used in Gazebo
         star: true
+      - title: ColliderGen - Blender addon to create efficient collision geometries
+        url: https://github.com/cole-bsmr/collidergen
+        desc: A robotics focused addon for Blender that creates collision geometry and SDF files.
+        star: true
 ---
