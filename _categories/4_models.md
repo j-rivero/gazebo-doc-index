@@ -39,6 +39,10 @@ subcategories:
 
   - title: Developing new 3D models for Gazebo
     items:
+      - title: Building and optimizing Gazebo simulation environments
+        url: https://community.gazebosim.org/t/community-meeting-building-and-optimizing-gazebo-simulation-environments/2831
+        desc: Video presentation from core developer explaining how to achive efficency in complex simulations
+        star: true
       - title: Creating complex models and worlds in Gazebo
         url: https://robotics.stackexchange.com/questions/24926/how-do-people-create-complex-models-worlds-in-the-gazebo/
         desc: Shared experiences on how users develop the 3D models for Gazebo
