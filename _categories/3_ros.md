@@ -43,6 +43,10 @@ subcategories:
         url: https://github.com/chapulina/desplate
         desc: The repository contains various examples for how to template description files in ROS 2
         star: false
+      - title: Automated Conversion of Description Conventions Fusion360 Add-In.
+        url: https://github.com/bionicdl-sustech/ACDC4Robot
+        desc: Fusion360 extension exporting models to URDF, SDFormat, and MJCF
+        star: true
       - title: Bidirectional SDF <-> Universal Scene Description (USD) converter
         url: https://github.com/gazebosim/gz-usd/blob/main/README.md
         desc: gz-usd - Repository containing tools to convert USD and SDFormat

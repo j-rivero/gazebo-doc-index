@@ -25,6 +25,10 @@ subcategories:
         url: https://github.com/open-rmf/rmf_demos/tree/main
         desc: Open Robotics Middleware Framework large scenarios demos for Gazebo and ROS
         star: true
+      - title: Autodesk Fusion 360 Robot Library
+        url: https://github.com/bionicdl-sustech/ACDC4Robot/blob/main/RobotLibrary.md
+        desc: Fusion robot models that can be used out-of-box
+        star: false
 
   - title: Developing new Worlds and Robots for Gazebo
     items:
@@ -62,6 +66,10 @@ subcategories:
 
   - title: Formats and modelling tools
     items:
+      - title: Automated Conversion of Description Conventions Fusion360 Add-In.
+        url: https://github.com/bionicdl-sustech/ACDC4Robot
+        desc: Fusion360 extension exporting models to URDF, SDFormat, and MJCF
+        star: true
       - title: Transforming FBX to DAE (Collada)
         url: https://gazebosim.org/api/rendering/8/transform_fbx_to_dae.html
         desc: Use Blender to transform FBX files to DAE to be used in Gazebo
