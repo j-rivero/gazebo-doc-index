@@ -88,6 +88,10 @@ subcategories:
        url: https://gazebosim.org/api/sim/7/distributedsimulation.html
        desc: Distribute the simulation among 1 or more processes and machines. Might be harder to setup to gain performance.
        star: false
+     - title: Gazebo on HPC cluster
+       url: https://community.gazebosim.org/t/run-gazebo-simulation-on-hpc-cluster/2986
+       desc: Post with notes about using Gazebo in an HPC cluster
+       star: false
      - title: Gazebo Trivial Physics Engine (TPE)
        url: https://community.gazebosim.org/t/announcing-new-physics-engine-tpe-trivial-physics-engine/629
        desc: Physics for fast simulation of higher-order fleet dynamics without real physics.
