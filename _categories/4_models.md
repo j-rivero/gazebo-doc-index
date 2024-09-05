@@ -66,6 +66,10 @@ subcategories:
 
   - title: Formats and modelling tools
     items:
+      - title: Export Fusion 360 CAD designs to SDF
+        url: https://discourse.ros.org/t/fusionsdf-export-fusion-360-cad-designs-to-sdf/39430/1
+        desc: Export SDF directly from Fusion360 supporting many automatic features.
+        star: true
       - title: Automated Conversion of Description Conventions Fusion360 Add-In.
         url: https://github.com/bionicdl-sustech/ACDC4Robot
         desc: Fusion360 extension exporting models to URDF, SDFormat, and MJCF
