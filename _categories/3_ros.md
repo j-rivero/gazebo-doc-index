@@ -39,6 +39,10 @@ subcategories:
         url: https://github.com/ros/sdformat_urdf
         desc: Avoid having URDF files in ROS and use SDFormat XML as a robot_description (with limitations)
         star: true
+      - title: View SDF files on RVIZ
+        url: https://github.com/Yadunund/view_sdf_rviz
+        desc: ROS 2 packages to view SDF models on RViz
+        star: true
       - title: Description templates repository
         url: https://github.com/chapulina/desplate
         desc: The repository contains various examples for how to template description files in ROS 2
