@@ -21,8 +21,8 @@ subcategories:
         desc: Feature comparison between Gazebo Classic and latest Gazebo
         star: false
       - title: Migrating from Gazebo Classic
-        url: https://gazebosim.org/api/sim/7/tutorials.html
-        desc: Gazebo Sim tutorials for migrating code from Gazebo classic
+        url: https://gazebosim.org/docs/latest/gazebo_classic_migration/
+        desc: Gazebo main documentation for migrating code from Gazebo classic
 
   - title: Installing on Linux, MacOSX and Windows
     items:
@@ -42,10 +42,6 @@ subcategories:
         url: https://github.com/osrf/homebrew-simulation
         desc: Github repo containing the brew metadata about all Gazebo related packages.
         star: false
-      - title: Gazebo Sim runtime problems on Windows
-        url: https://github.com/gazebosim/gz-sim/issues/168
-        desc: Latest updates on the problems to run Gazebo Sim on Windows
-        star: true
       - title: Installation of latest Gazebo libraries on Windows
         url: https://gazebosim.org/docs/all/install_windows
         desc: Instruction to install the different Gazebo libraries on Windows using binaries
@@ -111,9 +107,9 @@ subcategories:
 
   - title: Headless simulations and CI
     items:
-     - title: Headless EGL rendering (native)
-       url: https://gazebosim.org/api/gazebo/6.7/headless_rendering.html
-       desc: Rendering without an X server using Ogre-next EGL capabilities
+     - title: setup-gazebo GitHub Action
+       url: https://github.com/marketplace/actions/setup-gazebo-environment
+       desc: GitHub action in the marketplace to install Gazebo in all platforms
        star: true
      - title: Headless EGL rendering (XVFB + VirtualGL)
        url: https://community.gazebosim.org/t/egl-support-is-available-in-ignition-fortress/1183/2
