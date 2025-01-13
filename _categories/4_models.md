@@ -82,7 +82,7 @@ subcategories:
         url: https://github.com/cole-bsmr/collidergen
         desc: A robotics focused addon for Blender that creates collision geometry and SDF files.
         star: true
-      - title: creo2urdf: generate URDF model from CREO Parametric mechanisms
+      - title: creo2urdf - generate URDF model from CREO Parametric mechanisms
         url: https://github.com/icub-tech-iit/creo2urdf
         desc: Convert CREO Cad files into URDF
         star: false
