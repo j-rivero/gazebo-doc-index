@@ -90,4 +90,9 @@ subcategories:
         url: https://github.com/icub-tech-iit/creo2urdf
         desc: Convert CREO Cad files into URDF
         star: false
+      - title: Heightmap Spawner - 3D Heightmap models to Gazebo
+        url: https://github.com/damanikjosh/heightmap_spawner
+        desc: A ROS 2 package that converts occupancy grids from nav2_map_server into 3D heightmap for Gazebo
+        star: false
+
 ---
