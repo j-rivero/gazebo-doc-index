@@ -29,6 +29,10 @@ subcategories:
         url: https://github.com/bionicdl-sustech/ACDC4Robot/blob/main/RobotLibrary.md
         desc: Fusion robot models that can be used out-of-box
         star: false
+      - title: Stretch robot from Hello World on Harmonic and ROS 2 Humble
+        url: https://github.com/CardiffUniversityComputationalRobotics/stretch_ros2/tree/humble/stretch_gz_sim
+        desc: Cardiff University repository with a ready simulating for the Stretch Robot
+        star: false
 
   - title: Developing new Worlds and Robots for Gazebo
     items:
