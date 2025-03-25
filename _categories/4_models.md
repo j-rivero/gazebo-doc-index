@@ -33,6 +33,10 @@ subcategories:
         url: https://github.com/CardiffUniversityComputationalRobotics/stretch_ros2/tree/humble/stretch_gz_sim
         desc: Cardiff University repository with a ready simulating for the Stretch Robot
         star: false
+      - title: OpenMANIPULATOR-X (Robotis) on Harmonic and ROS 2 Jazzy
+        url: https://discourse.ros.org/t/openmanipulator-x-now-supporting-ros-2-jazzy-gazebo-harmonic/42783
+        desc: OpenMANIPULATOR-X repositories with Gazebo, MoveIt2 and task planner
+        star: false
 
   - title: Developing new Worlds and Robots for Gazebo
     items:

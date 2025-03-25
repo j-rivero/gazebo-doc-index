@@ -77,6 +77,10 @@ subcategories:
         url: https://github.com/AndrejOrsula/ign_moveit2_examples
         desc: C++ and Python examples of using MoveIt 2 for planning motions that are executed inside Gazebo simulation environment
         star: true
+      - title: OpenMANIPULATOR-X (Robotis) on Harmonic and ROS 2 Jazzy
+        url: https://discourse.ros.org/t/openmanipulator-x-now-supporting-ros-2-jazzy-gazebo-harmonic/42783
+        desc: OpenMANIPULATOR-X repositories with Gazebo, MoveIt2 and task planner
+        star: false
 
   - title: Gazebo with Nav2
     items:
