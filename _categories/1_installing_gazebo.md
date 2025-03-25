@@ -67,6 +67,11 @@ subcategories:
         desc: Plugin for gzdev that simplies accessing to a virtualized Gazebo collection environment
         star: false
 
+      - title: Use Gazebo in Google Colab
+        url: https://ricardodeazambuja.com/robotics/2025/03/15/ignition-gazebo-google-colab/
+        desc: Gazebo Ionic runing in the cloud of Google Colab
+        star: true
+
   - title: Gazebo + ROS installation on Ubuntu Linux
     items:
       - title: Installing Gazebo with ROS
