@@ -89,6 +89,11 @@ subcategories:
         desc: Community examples of Nav2 using Gazebo Fortress and Garden on ROS 2 Humble
         star: true
 
+      - title: Turtlebot4 Gazebo Fortress on ROS 2 Humble
+        url: https://github.com/kscottz/turtlebot4_docker
+        desc: Docker setup to run the Turtlebot4 on Fortress using ROS 2 Humble
+        star: true
+
       - title: Turtlebot3 support for the new Gazebo
         url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations/issues/196
         desc: Issue with information about the support of Gazebo in the Turtlebot3
