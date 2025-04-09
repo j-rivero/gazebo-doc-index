@@ -5,6 +5,18 @@
 title: Sensors in Gazebo
 desc: Simulated sensors available for Gazebo, lasers, cameras, etc.
 subcategories:
+
+  - title: Finding Gazebo Sensors
+    items:
+      - title: List of Gazebo Supported Sensors
+        url: https://github.com/gazebosim/gz-sensors?tab=readme-ov-file#supported-sensors
+        desc: Official list of Sensors available in gz-sensors
+        star: true
+      - title: Raw list of Gazebo sensor resources and examples
+        url: https://github.com/gazebosim/gazebo_test_cases/issues?q=sensor+label%3Abinary+label%3A%22Ubuntu+Jammy%22
+        desc: Sensor search in the tutorial party resources listed for Gazebo community to be reviewed
+        star: false
+
   - title: Camera sensors
     items:
     - title: Depth camera
@@ -45,13 +57,6 @@ subcategories:
         url: https://gazebosim.org/api/sim/7/battery.html
         desc: Tutorial for a battery system keeps track of the battery charge on a robot model.
         star: true
-
-  - title: Finding sensor examples
-    items:
-      - title: Raw list of Gazebo sensor resources and examples
-        url: https://github.com/gazebosim/gazebo_test_cases/issues?q=sensor+label%3Abinary+label%3A%22Ubuntu+Jammy%22
-        desc: Sensor search in the tutorial party resources listed for Gazebo community to be reviewed
-        star: false
 
   - title: Gazebo sensors and ROS
     items:
