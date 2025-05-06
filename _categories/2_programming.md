@@ -6,6 +6,13 @@ title: Programming with Gazebo
 desc: Developing code that uses the Gazebo interfaces
 subcategories:
 
+  - title: Development environment
+    items:
+      - title: Creating the Gazebo Development environment
+        url: https://community.gazebosim.org/t/setting-up-development-environment-for-making-changes-on-gz-sim-gz-math-gz-sensors/3725/2
+        desc: How to setup the platform for Gazebo development and how to install the required dependencies
+        star: true
+
   - title: Python bindings
     items:
       - title: Available Python Bindings for Gazebo Libraries
