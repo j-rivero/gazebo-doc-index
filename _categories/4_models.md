@@ -37,6 +37,10 @@ subcategories:
         url: https://discourse.ros.org/t/openmanipulator-x-now-supporting-ros-2-jazzy-gazebo-harmonic/42783
         desc: OpenMANIPULATOR-X repositories with Gazebo, MoveIt2 and task planner
         star: false
+      - title: Unitree Go2 quadrupedal on Harmonic and ROS 2 Jazzy
+        url: https://github.com/khaledgabr77/unitree_go2_ros2
+        desc: Complete ROS 2 Jazzy integration for the Unitree Go2 quadrupedal robot using the CHAMP controller framework.
+        star: false
 
   - title: Developing new Worlds and Robots for Gazebo
     items:
