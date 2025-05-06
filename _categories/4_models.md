@@ -29,13 +29,17 @@ subcategories:
         url: https://github.com/bionicdl-sustech/ACDC4Robot/blob/main/RobotLibrary.md
         desc: Fusion robot models that can be used out-of-box
         star: false
-      - title: Stretch robot from Hello World on Harmonic and ROS 2 Humble
-        url: https://github.com/CardiffUniversityComputationalRobotics/stretch_ros2/tree/humble/stretch_gz_sim
-        desc: Cardiff University repository with a ready simulating for the Stretch Robot
-        star: false
       - title: OpenMANIPULATOR-X (Robotis) on Harmonic and ROS 2 Jazzy
         url: https://discourse.ros.org/t/openmanipulator-x-now-supporting-ros-2-jazzy-gazebo-harmonic/42783
         desc: OpenMANIPULATOR-X repositories with Gazebo, MoveIt2 and task planner
+        star: false
+      - title: Parrot BeBop 2 on Ionic and ROS 2 Rolling
+        url: https://community.gazebosim.org/t/simulating-drones-with-ros-2-and-gazebo-a-bebop-2-tutorial/3771
+        desc: Parrot BeBop 2 simulatio and video tutorial
+        star: false
+      - title: Stretch robot from Hello World on Harmonic and ROS 2 Humble
+        url: https://github.com/CardiffUniversityComputationalRobotics/stretch_ros2/tree/humble/stretch_gz_sim
+        desc: Cardiff University repository with a ready simulating for the Stretch Robot
         star: false
       - title: Unitree Go2 quadrupedal on Harmonic and ROS 2 Jazzy
         url: https://github.com/khaledgabr77/unitree_go2_ros2
