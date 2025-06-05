@@ -57,6 +57,18 @@ subcategories:
         desc: Highlights of the VRX competition showing Gazebo for autonomous surface vehicles
         star: false
 
+  - title: Mobile Robotics
+    items:
+      - title: Moving a robot, diff-drive Gazebo Plugin
+        url: https://gazebosim.org/docs/harmonic/moving_robot/
+        desc: Official tutorial on using diff drive plugin and setting up the keyboard control
+        star: true
+
+      - title: Drive to Pose Controller Gazebo Plugin
+        url: https://github.com/gazebosim/gz-sim/pull/2679
+        desc: Gazebo plugin accepting a pose as input and generating /cmd_vel commands toward the goal
+        star: true
+
   - title: IA, Datasets and Machine Learning.
     items:
      - title: Generating Computer Vision datasets
