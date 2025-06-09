@@ -14,6 +14,7 @@ subcategories:
         star: true
   
   - title: Developing Plugins
+    items:
       - title: GUI Plugin Example
         url: https://github.com/gazebosim/gz-sim/blob/gz-sim9/examples/plugin/gui_system_plugin/README.md
         desc: Official Gazebo Sim GUI example
