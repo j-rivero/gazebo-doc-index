@@ -15,7 +15,7 @@ subcategories:
   
   - title: Developing Plugins
     items:
-      . title: Create System Plugins
+      - title: Create System Plugins
         url: https://gazebosim.org/api/sim/9/createsystemplugins.html
         desc: Official Gazebo Sim documentation for System Plugin creation
         star: true
