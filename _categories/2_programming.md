@@ -12,7 +12,7 @@ subcategories:
         url: https://community.gazebosim.org/t/setting-up-development-environment-for-making-changes-on-gz-sim-gz-math-gz-sensors/3725/2
         desc: How to setup the platform for Gazebo development and how to install the required dependencies
         star: true
-  
+
   - title: Developing Plugins
     items:
       - title: Create System Plugins
@@ -22,7 +22,7 @@ subcategories:
       - title: GUI Plugin Example
         url: https://github.com/gazebosim/gz-sim/blob/gz-sim9/examples/plugin/gui_system_plugin/README.md
         desc: Official Gazebo Sim GUI example
-        star: true        
+        star: true
 
   - title: Python bindings
     items:

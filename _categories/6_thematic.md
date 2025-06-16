@@ -70,7 +70,7 @@ subcategories:
         star: true
 
   - title: IA, Datasets and Machine Learning.
-    items:     
+    items:
      - title: StableBaselines3 RL environment in Gazebo Sim
        url: https://github.com/gazebosim/gz-sim/pull/2667
        desc: This demo world shows you an example of how you can use SDFormat, Stable Baselines 3 and Gazebo to perform RL with python

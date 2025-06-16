@@ -31,7 +31,7 @@ subcategories:
       url: https://community.gazebosim.org/t/seeking-a-way-for-processing-gazebo-garden-camera-sensor-data-without-ros/2604/
       desc: Thread with options about how to retrieve and process camera images
       star: false
-      
+
   - title: Laser sensors
     items:
     - title: Lidar sensor

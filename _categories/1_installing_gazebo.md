@@ -84,7 +84,7 @@ subcategories:
         star: true
 
   - title: Large environments resources
-    items:     
+    items:
      - title: Gazebo Simulator Levels
        url: https://gazebosim.org/api/sim/7/levels.html
        desc: Feature thatallows loading and unloading objects in simulation according to their proximity to the robot
@@ -110,7 +110,7 @@ subcategories:
        desc: Open-RMF GUI tool to generate large building maps ready to use in Gazebo
        star: false
      - title: OpenRMF demos
-       url: https://github.com/open-rmf/rmf_demos/tree/main 
+       url: https://github.com/open-rmf/rmf_demos/tree/main
        desc: Open Robotics Middleware Framework large scenarios demos for Gazebo and Gazebo Classic
        star: true
 
