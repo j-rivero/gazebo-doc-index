@@ -54,6 +54,10 @@ subcategories:
         url: https://community.gazebosim.org/t/wslg-with-gpu-support-available-on-latest-version-of-gazebo-garden-and-harmonic/2360/1
         desc: Windows Subsystem for Linux GUI installation with GPU support
         star: true
+      - title: Install ROS 2 Jazzy and the Gazebo bridge on Windows
+        url: https://github.com/gazebo-tooling/release-tools/issues/1333
+        desc: Easy installation using the conda-forge Robotstack packages of ROS 2 Jazzy and the Gazebo Harmonic ros_gz bridge
+        star: true
 
   - title: Gazebo on virtualized environments
     items:
