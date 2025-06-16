@@ -60,6 +60,17 @@ subcategories:
         desc: Tutorials for converting between SDF and MJCF formats
         star: false
 
+  - title: The ROS 2 Gazebo Bridge (ros_gz)
+    items:
+      - title: Use ROS 2 to interact with Gazebo
+        url: https://gazebosim.org/docs/latest/ros3_integration/
+        desc: Official Gazebo documentation that explains how to communicate Gazebo and ROS 2 using messages
+        star: true
+      - title: GUI for ROS 2 <-> Gazebo Launch Generator
+        url: https://discourse.ros.org/t/gui-for-ros2-gazebo-launch-file-generator/44186
+        desc: Helper tool to setup the parameter bridge in bash cli commands or ROS 2 launch files
+        star: false
+
   - title: Gazebo sensors and plugins in ROS
     items:
       - title: Examples and tutorials for Gazebo sensors on ROS 2
