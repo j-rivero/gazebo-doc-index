@@ -70,6 +70,10 @@ subcategories:
         url: https://discourse.ros.org/t/gui-for-ros2-gazebo-launch-file-generator/44186
         desc: Helper tool to setup the parameter bridge in bash cli commands or ROS 2 launch files
         star: false
+      - title: Bridge improvements for ROS 2 Kilted and Rolling
+        url: https://community.gazebosim.org/t/ros-gz-bridge-improvements/3135
+        desc: Performance and Ergonomics improvements to the bridge including Composable Node (avoid serialization between ROS 2 and Gazebo)
+        star: true
 
   - title: Gazebo sensors and plugins in ROS
     items:
