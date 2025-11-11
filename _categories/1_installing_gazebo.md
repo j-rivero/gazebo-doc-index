@@ -13,7 +13,7 @@ subcategories:
         desc: ICRA 2023 presentation about Gazebo, versions and features
         star: true
       - title: Why the Ignition name was replaced by Gazebo
-        url: https://community.gazebosim.org/t/a-new-era-for-gazebo/1356
+        url: https://discourse.openrobotics.org/t/a-new-era-for-gazebo/48995
         desc: Official forum post explaining why and how Ignition became Gazebo
         star: false
       - title: Feature comparison Gazebo Classic vs Gazebo
