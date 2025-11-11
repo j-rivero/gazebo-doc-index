@@ -51,7 +51,7 @@ subcategories:
         desc: Conda introduction and how to install Gazebo using it
         star: true
       - title: WSLg with GPU support for Gazebo Garden and Harmonic
-        url: https://community.gazebosim.org/t/wslg-with-gpu-support-available-on-latest-version-of-gazebo-garden-and-harmonic/2360/1
+        url: https://discourse.openrobotics.org/t/wslg-with-gpu-support-available-on-latest-version-of-gazebo-garden-and-harmonic/48128
         desc: Windows Subsystem for Linux GUI installation with GPU support
         star: true
       - title: Install ROS 2 Jazzy and the Gazebo bridge on Windows
@@ -94,15 +94,15 @@ subcategories:
        desc: Distribute the simulation among 1 or more processes and machines. Might be harder to setup to gain performance.
        star: false
      - title: Gazebo on HPC cluster
-       url: https://community.gazebosim.org/t/run-gazebo-simulation-on-hpc-cluster/2986
+       url: https://discourse.openrobotics.org/t/run-gazebo-simulation-on-hpc-cluster/48525
        desc: Post with notes about using Gazebo in an HPC cluster
        star: false
      - title: Gazebo Trivial Physics Engine (TPE)
-       url: https://community.gazebosim.org/t/announcing-new-physics-engine-tpe-trivial-physics-engine/629
+       url: https://discourse.openrobotics.org/t/announcing-new-physics-engine-tpe-trivial-physics-engine/47921
        desc: Physics for fast simulation of higher-order fleet dynamics without real physics.
        star: false
      - title: Creating model populations programatically
-       url: https://community.gazebosim.org/t/creating-a-model-population-in-gazebo-garden/2060/2
+       url: https://discourse.openrobotics.org/t/creating-a-model-population-in-gazebo-garden/48365
        desc: ERB Templates in SDFormat to create model populations
        star: false
      - title: Building Map Generator
@@ -121,7 +121,7 @@ subcategories:
        desc: GitHub action in the marketplace to install Gazebo in all platforms
        star: true
      - title: Headless EGL rendering (XVFB + VirtualGL)
-       url: https://community.gazebosim.org/t/egl-support-is-available-in-ignition-fortress/1183/2
+       url: https://discourse.openrobotics.org/t/egl-support-is-available-in-ignition-fortress/49107
        desc: Workaround to get headless EGL rendering XVFB with an EGL render from VirtualGL
        star: false
      - title: Digital Elevation Maps

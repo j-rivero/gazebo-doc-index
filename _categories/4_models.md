@@ -34,7 +34,7 @@ subcategories:
         desc: OpenMANIPULATOR-X repositories with Gazebo, MoveIt2 and task planner
         star: false
       - title: Parrot BeBop 2 on Ionic and ROS 2 Rolling
-        url: https://community.gazebosim.org/t/simulating-drones-with-ros-2-and-gazebo-a-bebop-2-tutorial/3771
+        url: https://discourse.openrobotics.org/t/simulating-drones-with-ros-2-and-gazebo-a-bebop-2-tutorial/48797
         desc: Parrot BeBop 2 simulatio and video tutorial
         star: false
       - title: Stretch robot from Hello World on Harmonic and ROS 2 Humble
@@ -60,7 +60,7 @@ subcategories:
   - title: Developing new 3D models for Gazebo
     items:
       - title: Building and optimizing Gazebo simulation environments
-        url: https://community.gazebosim.org/t/community-meeting-building-and-optimizing-gazebo-simulation-environments/2831
+        url: https://discourse.openrobotics.org/t/community-meeting-building-and-optimizing-gazebo-simulation-environments/48664
         desc: Video presentation from core developer explaining how to achive efficency in complex simulations
         star: true
       - title: Creating complex models and worlds in Gazebo

@@ -9,7 +9,7 @@ subcategories:
   - title: Development environment
     items:
       - title: Creating the Gazebo Development environment
-        url: https://community.gazebosim.org/t/setting-up-development-environment-for-making-changes-on-gz-sim-gz-math-gz-sensors/3725/2
+        url: https://discourse.openrobotics.org/t/setting-up-development-environment-for-making-changes-on-gz-sim-gz-math-gz-sensors/48441
         desc: How to setup the platform for Gazebo development and how to install the required dependencies
         star: true
 
@@ -27,7 +27,7 @@ subcategories:
   - title: Python bindings
     items:
       - title: Available Python Bindings for Gazebo Libraries
-        url: https://community.gazebosim.org/t/python-bindings-for-gazebo-ignition/360/15?u=jrivero
+        url: https://discourse.openrobotics.org/t/python-bindings-for-gazebo-ignition/47935
         desc: Hints for finding the Python bindings available in the Gazebo libraries
         star: true
 
@@ -46,7 +46,7 @@ subcategories:
   - title: Working with Camera Images
     items:
      - title: Processing camera images
-       url: https://community.gazebosim.org/t/seeking-a-way-for-processing-gazebo-garden-camera-sensor-data-without-ros/2604/
+       url: https://discourse.openrobotics.org/t/seeking-a-way-for-processing-gazebo-garden-camera-sensor-data-without-ros/48204
        desc: Thread with options about how to retrieve and process camera images
        star: false
 ---

@@ -28,7 +28,7 @@ subcategories:
       desc: Supports objects with uniform or variable surface temperatures
       star: false
     - title: Processing camera images
-      url: https://community.gazebosim.org/t/seeking-a-way-for-processing-gazebo-garden-camera-sensor-data-without-ros/2604/
+      url: https://discourse.openrobotics.org/t/seeking-a-way-for-processing-gazebo-garden-camera-sensor-data-without-ros/48204
       desc: Thread with options about how to retrieve and process camera images
       star: false
 

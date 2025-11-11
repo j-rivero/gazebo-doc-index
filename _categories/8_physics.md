@@ -37,7 +37,7 @@ subcategories:
   - title: Tools
     items:
     - title: Automatically Computing Moments of Inertia for SDFormat Links
-      url: https://community.gazebosim.org/t/gsoc-2023-automatically-computing-moments-of-inertia-for-sdformat-links/2267
+      url: https://discourse.openrobotics.org/t/gsoc-2023-automatically-computing-moments-of-inertia-for-sdformat-links/49133
       desc: Automatic computation of Moments of Inertia for SDFormat Links in simulation
       start: true
 ---

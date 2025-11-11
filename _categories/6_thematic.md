@@ -9,7 +9,7 @@ subcategories:
   - title: Drones
     items:
       - title: ROS 2 and Gazebo integration to control multiple vehicles
-        url: https://community.gazebosim.org/t/community-meeting-multi-vehicle-simulation-with-ros-2-and-gazebo/2073
+        url: https://discourse.openrobotics.org/t/community-meeting-multi-vehicle-simulation-with-ros-2-and-gazebo/48752
         desc: Interaction with PX4 Autopilot and Betaflight for Gazebo/ROS 2 simulations
         star: true
 
@@ -48,7 +48,7 @@ subcategories:
         star: true
 
       - title: Simulate surface waves
-        url: https://community.gazebosim.org/t/simulate-surface-waves-and-marine-vehicle-dynamics/1268
+        url: https://discourse.openrobotics.org/t/simulate-surface-waves-and-marine-vehicle-dynamics/47727
         desc: Information about changes in the Gazebo simulator done to support better waves simulation
         star: false
 

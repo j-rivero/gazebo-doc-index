@@ -71,7 +71,7 @@ subcategories:
         desc: Helper tool to setup the parameter bridge in bash cli commands or ROS 2 launch files
         star: false
       - title: Bridge improvements for ROS 2 Kilted and Rolling
-        url: https://community.gazebosim.org/t/ros-gz-bridge-improvements/3135
+        url: https://discourse.openrobotics.org/t/ros-gz-bridge-improvements/48795
         desc: Performance and Ergonomics improvements to the bridge including Composable Node (avoid serialization between ROS 2 and Gazebo)
         star: true
 

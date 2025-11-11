@@ -23,18 +23,18 @@ subcategories:
   - title: Interacting with the simulation
     items:
      - title: Apply Force and Torque plugin
-       url: https://community.gazebosim.org/t/gsoc-2023-dynamic-wrench-application-through-the-gui/2227#apply-force-and-torque-plugin-5
+       url: https://discourse.openrobotics.org/t/gsoc-2023-dynamic-wrench-application-through-the-gui/46869#apply-force-and-torque-plugin
        desc: Apply an instantaneous force and/or torque to any link in the simulation controling its amplitude and direction
        star: true
      - title: Mouse drag plugin
-       url: https://community.gazebosim.org/t/gsoc-2023-dynamic-wrench-application-through-the-gui/2227#mouse-drag-plugin-4
+       url: https://discourse.openrobotics.org/t/gsoc-2023-dynamic-wrench-application-through-the-gui/46869#mouse-drag-plugin
        desc: Drag objects around in the scene with the mouse cursor by applying forces and/or torques to links
        star: false
 
   - title: Visualizing data
     items:
       - title: Plotting tool for Gazebo
-        url: https://community.gazebosim.org/t/gsoc-2020-plotting-tool-for-ignition/619
+        url: https://discourse.openrobotics.org/t/gsoc-2020-plotting-tool-for-ignition/48325
         desc: GSoC 2020 about the adding plotting capabilities to Gazebo Sim.
         star: true
       - title: Point cloud native visualization
