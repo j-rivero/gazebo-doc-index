@@ -6,7 +6,7 @@ This repository contains a curated index of Gazebo documentation and resources, 
 
 When contributing to this repository, please use the following commit message format:
 
-`$Emoji $commit_message $subcategory`
+`$Emoji $commit_message ($subcategory)`
 
 Where `$commit_message` is the title of the new item being added and the `$subcategory` the subcategory
 of the item added.
