@@ -98,6 +98,10 @@ subcategories:
         url: https://github.com/cole-bsmr/collidergen
         desc: A robotics focused addon for Blender that creates collision geometry and SDF files.
         star: true
+      - title: RobotCAD - FreeCAD workbench for robot design and URDF generation
+        url: https://github.com/drfenixion/freecad.robotcad
+        desc: FreeCAD workbench to generate ROS2 robot description packages (URDF/xacro) with Gazebo launchers, ros2_control, sensors, and integrated models library
+        star: true
       - title: creo2urdf - generate URDF model from CREO Parametric mechanisms
         url: https://github.com/icub-tech-iit/creo2urdf
         desc: Convert CREO Cad files into URDF
