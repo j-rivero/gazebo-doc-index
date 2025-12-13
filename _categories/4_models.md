@@ -102,6 +102,10 @@ subcategories:
         url: https://github.com/drfenixion/freecad.robotcad
         desc: FreeCAD workbench to generate ROS2 robot description packages (URDF/xacro) with Gazebo launchers, ros2_control, sensors, and integrated models library
         star: true
+      - title: Phobos - Blender add-on for URDF/SDF/SMURF robot models
+        url: https://github.com/dfki-ric/phobos
+        desc: WYSIWYG Blender add-on and CLI tool for creating and editing robot models with export to URDF, SDF, and SMURF formats for ROS and Gazebo
+        star: true
       - title: creo2urdf - generate URDF model from CREO Parametric mechanisms
         url: https://github.com/icub-tech-iit/creo2urdf
         desc: Convert CREO Cad files into URDF
