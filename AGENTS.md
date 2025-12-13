@@ -146,9 +146,8 @@ Generate item metadata:
 **Guidelines for metadata**:
 - **title**: Should be clear and searchable (50 chars max recommended)
 - **url**: Use the exact URL provided by the user
-- **desc**: Explain what users will learn or achieve (1-2 sentences)
+- **desc**: Explain what users will learn or achieve (1-2 sentences). Mention the source specially if it is ROSCon, Community meetings, open robotics discourse or official github in gazebosim. No more than 130 characters.
 - **star**: Set to `true` if it's:
-  - Official documentation
   - Widely-used tool/resource
   - Comprehensive/authoritative content
   - Recommended starting point
@@ -161,8 +160,10 @@ Insert the new item in the appropriate subcategory's `items` array. Maintain pro
 
 **Commit message format**:
 ```
-$Emoji $Title ($Subcategory)
+$Emoji/s $Title ($Subcategory)
 ```
+
+Emojis can be more than one if the link is in two subcagories
 
 **Emoji Reference by Category**:
 
