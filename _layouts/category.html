@@ -2,54 +2,57 @@
 layout: "wrapper"
 ---
 
-<div class="container container-fluid">
-    <div>
-        <a href="{{site.baseurl}}/">
-            <i class="glyphicon glyphicon-chevron-left" style="margin-right:3px"></i>
-            Go back
-        </a>
-    </div>
-        <br>
-        <div class="row">
-            <div class="col-xs-12">
-            <h1>{{page.title}}</h1>
-            <hr>
-            <div class="col-md-offset-9 col-xs-offset-8">
-                <a href="https://github.com/j-rivero/gazebo-doc-index/edit/master/{{page.path}}">
-                <i class="glyphicon glyphicon-edit" style="margin-right:3px"></i>
-                Suggest edits
+<div class="container container-fluid" style="padding-top: 30px; padding-bottom: 60px;">
+    <div class="row">
+        <div class="col-xs-12">
+            <div style="margin-bottom: 20px;">
+                <a href="{{site.baseurl}}/">
+                    <i class="glyphicon glyphicon-chevron-left" style="margin-right: 6px;"></i>
+                    Go back
                 </a>
             </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            {% for subcategory in page.subcategories %}
-            <h3 class="subcat-title">{{subcategory.title}}</h3>            
-            <ul>
-                <div class="col-xs-12 item-container">
-                    {% for item in subcategory.items %} 
-                    <div class="index-item">
-                    <li>
-                        <p class="item-title">
-                            {% if item.star %}
-                            <img src="{{ "/assets/img/star-128.png" | prepend: site.baseurl }}" alt="star_logo" width=1%>
-                            {% endif %}
-                            <a class="item-title" style="text-decoration: none" href={{item.url}}>                                    
-                                {{item.title}}
-                            </a>
-                        </p>
-                    </li>
-                    <p class="item-desc">{{item.desc}}</p>
-                    <!-- Tags:
-                    {% for tag in item.tags %}
-                        <a href="{{tag.url}}"  class="tag-title"> <span >{{tag}}</span></a>
-                    {% endfor %} -->
-                    <!-- <br> -->
-                </div>
-                {% endfor %}
-            </div>
-        </ul>
-            {% endfor %}
         </div>
     </div>
+    
+    <div class="row">
+        <div class="col-xs-12">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 20px; margin-bottom: 20px;">
+                <h1 style="margin: 0;">{{page.title}}</h1>
+                <a href="https://github.com/j-rivero/gazebo-doc-index/edit/master/{{page.path}}">
+                    <i class="glyphicon glyphicon-edit" style="margin-right: 6px;"></i>
+                    Suggest edits
+                </a>
+            </div>
+            <hr style="border-color: var(--border-color); margin-top: 20px; margin-bottom: 40px;">
+        </div>
+    </div>
+    
+    <div class="container-fluid" style="padding: 0;">
+        {% for subcategory in page.subcategories %}
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="subcat-title">{{subcategory.title}}</h3>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="item-container">
+                    {% for item in subcategory.items %} 
+                    <div class="index-item">
+                        {% if item.star %}
+                        <img src="{{ "/assets/img/star-128.png" | prepend: site.baseurl }}" alt="star_logo">
+                        {% endif %}
+                        <a class="item-title" style="text-decoration: none;" href="{{item.url}}" target="_blank" rel="noopener noreferrer">                                    
+                            {{item.title}}
+                        </a>
+                        <p class="item-desc">{{item.desc}}</p>
+                    </div>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
     
