@@ -42,6 +42,10 @@ subcategories:
         url: https://gazebosim.org/api/math/8/pythongetstarted.html
         desc: Define custom protobuf messages that reuse gz-msgs or are hosted in an external repository
         star: false
+      - title: Zenoh support for gz-transport
+        url: https://vimeo.com/1123639071?fl=pl&fe=cm#t=43m22s
+        desc: Gazebo Jetty adds Zenoh as transport alternative to ZeroMQ. Set GZ_TRANSPORT_IMPLEMENTATION=zenoh for better discovery and ROS 2 interoperability
+        star: false
 
   - title: Working with Camera Images
     items:
