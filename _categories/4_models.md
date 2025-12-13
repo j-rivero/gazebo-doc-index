@@ -49,6 +49,10 @@ subcategories:
         url: https://github.com/mattiadutto/ugv_gazebo_sim
         desc: Simulation support for AgileX UGV robots including Bunker and Scout Mini in Gazebo Harmonic with ROS 2 Jazzy
         star: false
+      - title: Gazebo Jetty Demo World - Warehouse with autonomous forklift
+        url: https://github.com/gazebosim/jetty_demo
+        desc: Realistic warehouse environment showcasing Gazebo Jetty features with autonomous forklift and Open-RMF demonstration
+        star: true
 
   - title: Developing new Worlds and Robots for Gazebo
     items:
