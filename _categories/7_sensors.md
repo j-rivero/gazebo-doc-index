@@ -42,6 +42,10 @@ subcategories:
       url: https://github.com/gazebosim/gz-sim/blob/gz-sim7/examples/worlds/gpu_lidar_retro_values_sensor.sdf
       desc: Example SDF supporting objects detected by Lidar that have custom retroreflection
       star: false
+    - title: Multi-LiDAR simulation plugin with hardware-accelerated ray tracing
+      url: https://vimeo.com/1136163508
+      desc: ROSCon24 presentation on multi-LiDAR plugin using WGPU for hardware-accelerated ray tracing across AMD and NVIDIA GPUs, dramatically boosting simulation speed
+      star: false
 
   - title: Other sensors
     items:
