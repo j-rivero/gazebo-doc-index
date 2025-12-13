@@ -56,6 +56,10 @@ subcategories:
         url: https://gazebosim.org/docs/harmonic/sdf_worlds
         desc: Official tutorial describing the creation of an SDF world
         star: true
+      - title: Realistic Terrain Simulation in Gazebo
+        url: https://vimeo.com/1136377469
+        desc: ROSCon24 presentation by Intrinsic on creating realistic terrain from real world geospatial data including Digital Elevation Models (DEMs), with tools for optimizing datasets for rendering and physics performance
+        star: true
 
   - title: Developing new 3D models for Gazebo
     items:
