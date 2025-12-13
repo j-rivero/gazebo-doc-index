@@ -40,4 +40,8 @@ subcategories:
       url: https://discourse.openrobotics.org/t/gsoc-2023-automatically-computing-moments-of-inertia-for-sdformat-links/49133
       desc: Automatic computation of Moments of Inertia for SDFormat Links in simulation
       start: true
+    - title: Mass-based auto inertia calculation
+      url: https://vimeo.com/1123639071?fl=pl&fe=cm#t=17m9s
+      desc: Specify object mass in SDFormat and Gazebo automatically computes density and inertial parameters, simplifying object creation
+      star: true
 ---
