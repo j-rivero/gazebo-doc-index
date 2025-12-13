@@ -76,9 +76,9 @@ subcategories:
        desc: ROS2 Model Context Protocol Server for Gazebo Simulation, enabling AI assistants to control Gazebo
        star: true
 
-     - title: StableBaselines3 RL environment in Gazebo Sim
+     - title: Reinforcement Learning with Gazebo and Stable Baselines3
        url: https://github.com/gazebosim/gz-sim/pull/2667
-       desc: This demo world shows you an example of how you can use SDFormat, Stable Baselines 3 and Gazebo to perform RL with python
+       desc: Complete tutorial on performing reinforcement learning using Gazebo Jetty and Stable Baselines3 library with cartpole example
        star: true
 
      - title: Generating Computer Vision datasets
