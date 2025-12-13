@@ -109,6 +109,10 @@ subcategories:
        url: https://osrf.github.io/ros2multirobotbook/simulation.html#building-map-generator
        desc: Open-RMF GUI tool to generate large building maps ready to use in Gazebo
        star: false
+     - title: Optimizing Gazebo simulation - Challenges in building complex environments
+       url: https://vimeo.com/1024971478
+       desc: ROSCon24 presentation covering typical performance bottlenecks and optimization strategies for complex simulation environments in Gazebo
+       star: true
      - title: OpenRMF demos
        url: https://github.com/open-rmf/rmf_demos/tree/main
        desc: Open Robotics Middleware Framework large scenarios demos for Gazebo and Gazebo Classic

@@ -63,6 +63,10 @@ subcategories:
         url: https://discourse.openrobotics.org/t/community-meeting-building-and-optimizing-gazebo-simulation-environments/48664
         desc: Video presentation from core developer explaining how to achive efficency in complex simulations
         star: true
+      - title: Optimizing Gazebo simulation - Challenges in building complex environments
+        url: https://vimeo.com/1024971478
+        desc: ROSCon24 presentation covering typical performance bottlenecks and optimization strategies for complex simulation environments in Gazebo
+        star: true
       - title: Creating complex models and worlds in Gazebo
         url: https://robotics.stackexchange.com/questions/24926/how-do-people-create-complex-models-worlds-in-the-gazebo/
         desc: Shared experiences on how users develop the 3D models for Gazebo
