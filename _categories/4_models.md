@@ -45,6 +45,10 @@ subcategories:
         url: https://github.com/khaledgabr77/unitree_go2_ros2
         desc: Complete ROS 2 Jazzy integration for the Unitree Go2 quadrupedal robot using the CHAMP controller framework.
         star: false
+      - title: AgileX robots (Bunker, Scout Mini) on Harmonic and ROS 2 Jazzy
+        url: https://github.com/mattiadutto/ugv_gazebo_sim
+        desc: Simulation support for AgileX UGV robots including Bunker and Scout Mini in Gazebo Harmonic with ROS 2 Jazzy
+        star: false
 
   - title: Developing new Worlds and Robots for Gazebo
     items:
@@ -58,7 +62,7 @@ subcategories:
         star: true
       - title: Realistic Terrain Simulation in Gazebo
         url: https://vimeo.com/1136377469
-        desc: ROSCon24 presentation by Intrinsic on creating realistic terrain from real world geospatial data including Digital Elevation Models (DEMs), with tools for optimizing datasets for rendering and physics performance
+        desc: ROSCon25 presentation on creating realistic terrain from real world geospatial data including Digital Elevation Models (DEMs)
         star: true
 
   - title: Developing new 3D models for Gazebo
