@@ -44,4 +44,8 @@ subcategories:
       url: https://vimeo.com/1123639071?fl=pl&fe=cm#t=17m9s
       desc: Specify object mass in SDFormat and Gazebo automatically computes density and inertial parameters, simplifying object creation
       star: true
+    - title: LookupWheelSlip system for dynamic friction
+      url: https://github.com/gazebosim/gz-sim/pull/3003
+      desc: Uses RGB lookup maps to dynamically adjust material friction based on texture colors. Create oil slicks or variable terrain friction easily
+      star: false
 ---
