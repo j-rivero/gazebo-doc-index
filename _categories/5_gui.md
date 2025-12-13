@@ -37,6 +37,10 @@ subcategories:
         url: https://discourse.openrobotics.org/t/gsoc-2020-plotting-tool-for-ignition/48325
         desc: GSoC 2020 about the adding plotting capabilities to Gazebo Sim.
         star: true
+      - title: Occupancy Grid Export
+        url: https://github.com/gazebosim/gz-sim/pull/2958
+        desc: Export 2D occupancy grid maps from Gazebo simulation for robot navigation and path planning
+        star: true
       - title: Point cloud native visualization
         url: https://github.com/gazebosim/gz-gui/pull/346
         desc: Point Cloud visualization plugin in Gazebo Sim

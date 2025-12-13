@@ -107,7 +107,10 @@ subcategories:
         url: https://discourse.ros.org/t/nav2-example-with-ignition-gazebo-fortress/31174
         desc: Community examples of Nav2 using Gazebo Fortress and Garden on ROS 2 Humble
         star: true
-
+      - title: Occupancy Grid Export for Nav2
+        url: https://github.com/gazebosim/gz-sim/pull/2958
+        desc: Export 2D occupancy grid maps from Gazebo for Nav2 path planning using /scan_image topic and exploration command
+        star: true
       - title: Turtlebot4 Gazebo Fortress on ROS 2 Humble
         url: https://github.com/kscottz/turtlebot4_docker
         desc: Docker setup to run the Turtlebot4 on Fortress using ROS 2 Humble
