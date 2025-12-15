@@ -451,29 +451,51 @@ a[href*="Go back"]:hover {
   background-color: rgba(247, 142, 30, 0.1);
 }
 
-/* Edit Link */
-a[href*="Suggest edits"] {
+/* Suggest Edit Button */
+.suggest-edit-btn {
   display: inline-flex;
   align-items: center;
-  color: var(--text-secondary);
-  font-weight: 500;
+  color: var(--bg-white);
+  background: linear-gradient(135deg, var(--gazebo-orange) 0%, var(--gazebo-orange-light) 100%);
+  font-weight: 600;
+  font-size: 1.05rem;
   transition: var(--transition);
-  padding: 8px 16px;
-  border-radius: var(--radius-sm);
+  padding: 12px 24px;
+  border-radius: var(--radius-md);
   text-decoration: none;
-  border: 1px solid var(--border-color);
-  background-color: var(--bg-white);
+  border: 2px solid var(--gazebo-orange);
+  box-shadow: var(--shadow-sm);
 }
 
-a[href*="Suggest edits"]:hover {
-  color: var(--gazebo-orange);
-  border-color: var(--gazebo-orange);
-  background-color: rgba(247, 142, 30, 0.05);
+.suggest-edit-btn:hover {
+  color: var(--bg-white);
+  background: linear-gradient(135deg, var(--gazebo-orange-light) 0%, var(--gazebo-orange) 100%);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  text-decoration: none;
+}
+
+.suggest-edit-btn i {
+  font-size: 1.1rem;
 }
 
 /* ===================================
    Responsive Design
    =================================== */
+
+@media (min-width: 1200px) {
+  .cat-card {
+    flex: 0 0 calc(33.333% - 28px);
+    max-width: calc(33.333% - 28px);
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+  .cat-card {
+    flex: 0 0 calc(50% - 28px);
+    max-width: calc(50% - 28px);
+  }
+}
 
 @media (max-width: 768px) {
   h1 {
@@ -483,6 +505,8 @@ a[href*="Suggest edits"]:hover {
   .cat-card {
     min-height: 160px;
     padding: 20px;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
   
   .cat-ol {
