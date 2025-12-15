@@ -109,39 +109,6 @@ html, body {
   font-weight: 600;
 }
 
-/* Search Box */
-.navbar-form {
-  margin-top: 8px;
-}
-
-.navbar-form .form-control {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border-color);
-  padding: 8px 16px;
-  transition: var(--transition);
-  font-size: 14px;
-}
-
-.navbar-form .form-control:focus {
-  border-color: var(--gazebo-orange);
-  box-shadow: 0 0 0 3px rgba(247, 142, 30, 0.1);
-  outline: none;
-}
-
-.navbar-form .btn {
-  border-radius: 0 var(--radius-md) var(--radius-md) 0;
-  border: 1px solid var(--gazebo-orange);
-  background-color: var(--gazebo-orange);
-  color: white;
-  transition: var(--transition);
-}
-
-.navbar-form .btn:hover {
-  background-color: var(--gazebo-orange-light);
-  border-color: var(--gazebo-orange-light);
-  transform: translateY(-1px);
-}
-
 /* ===================================
    Typography
    =================================== */
@@ -166,6 +133,49 @@ h3 {
   font-size: 1.5rem;
   color: var(--gazebo-gray);
   margin-bottom: 0.75rem;
+}
+
+/* ===================================
+   Maintainer Section
+   =================================== */
+
+.maintainer-section {
+  background-color: var(--bg-white);
+  border-top: 1px solid var(--border-color);
+  padding: 50px 0;
+  margin-top: 60px;
+}
+
+.maintainer-note {
+  background: linear-gradient(135deg, rgba(247, 142, 30, 0.05) 0%, rgba(255, 169, 77, 0.03) 100%);
+  border-left: 4px solid var(--gazebo-orange);
+  padding: 24px 28px;
+  border-radius: var(--radius-md);
+  max-width: 100%;
+}
+
+.maintainer-note p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.maintainer-note strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.maintainer-note a {
+  color: var(--gazebo-orange);
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.maintainer-note a:hover {
+  color: var(--gazebo-orange-light);
+  text-decoration: underline;
 }
 
 /* ===================================
@@ -233,6 +243,34 @@ h3 {
   transform: scaleY(1);
 }
 
+/* Special styling for the first category (All Links) */
+.cat-ol > div:first-child .cat-card {
+  background: linear-gradient(135deg, rgba(247, 142, 30, 0.08) 0%, rgba(255, 169, 77, 0.05) 100%);
+  border: 2px solid var(--gazebo-orange);
+  position: relative;
+}
+
+.cat-ol > div:first-child .cat-card::after {
+  content: '★';
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 28px;
+  color: var(--gazebo-orange);
+  opacity: 0.3;
+}
+
+.cat-ol > div:first-child .cat-card:hover {
+  background: linear-gradient(135deg, rgba(247, 142, 30, 0.12) 0%, rgba(255, 169, 77, 0.08) 100%);
+  border-color: var(--gazebo-orange-light);
+  box-shadow: 0 8px 28px rgba(247, 142, 30, 0.25);
+}
+
+.cat-ol > div:first-child .cat-title {
+  color: var(--gazebo-orange);
+  font-weight: 700;
+}
+
 .cat-title {
   color: var(--text-primary);
   font-weight: 600;
@@ -298,8 +336,9 @@ h3 {
   transition: var(--transition);
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 4px;
   margin-bottom: 8px;
+  line-height: 1.4;
 }
 
 .item-title:hover {
@@ -316,11 +355,14 @@ h3 {
 }
 
 /* Star Icon */
-.index-item img[alt="star_logo"] {
-  width: 18px !important;
-  height: 18px;
-  filter: brightness(0) saturate(100%) invert(63%) sepia(82%) saturate(1800%) hue-rotate(360deg) brightness(100%);
-  margin-right: 4px;
+.star-icon {
+  color: var(--gazebo-orange);
+  font-size: 1.8rem;
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 1;
+  font-weight: bold;
 }
 
 /* ===================================

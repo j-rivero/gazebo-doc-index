@@ -40,10 +40,10 @@ layout: "wrapper"
                 <ul class="item-container">
                     {% for item in subcategory.items %} 
                     <div class="index-item">
-                        {% if item.star %}
-                        <img src="{{ "/assets/img/star-128.png" | prepend: site.baseurl }}" alt="star_logo">
-                        {% endif %}
-                        <a class="item-title" style="text-decoration: none;" href="{{item.url}}" target="_blank" rel="noopener noreferrer">                                    
+                        <a class="item-title" style="text-decoration: none;" href="{{item.url}}" target="_blank" rel="noopener noreferrer">
+                            {% if item.star %}
+                            <span class="star-icon">★</span>
+                            {% endif %}
                             {{item.title}}
                         </a>
                         <p class="item-desc">{{item.desc}}</p>
