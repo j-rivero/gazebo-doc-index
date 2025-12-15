@@ -365,6 +365,60 @@ h3 {
   font-weight: bold;
 }
 
+/* Link Type Icons */
+.link-icon {
+  font-size: 1.1rem;
+  margin-right: 8px;
+  opacity: 0.6;
+  transition: var(--transition);
+  vertical-align: middle;
+}
+
+.item-title:hover .link-icon {
+  opacity: 1;
+}
+
+/* Specific icon colors */
+.fa-github {
+  color: #333;
+}
+
+.fa-youtube-play {
+  color: #ff0000;
+}
+
+.fa-vimeo-square {
+  color: #1ab7ea;
+}
+
+.fa-comments {
+  color: #00a0d2;
+}
+
+.fa-stack-overflow {
+  color: #f48024;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-file-text {
+  color: #4285f4;
+}
+
+.fa-book {
+  color: var(--gazebo-orange);
+}
+
+.fa-external-link {
+  color: var(--text-secondary);
+}
+
 /* ===================================
    Footer
    =================================== */
@@ -543,4 +597,31 @@ a[href*="Go back"]:hover {
   .item-title {
     font-size: 1rem;
   }
+}
+
+/* Link type icons */
+.link-icon {
+  font-size: 0.9em;
+  opacity: 0.6;
+  margin-left: 0.3em;
+  transition: opacity 0.2s ease;
+}
+
+.item-title a:hover .link-icon {
+  opacity: 1;
+}
+
+.openrobotics-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.openrobotics-icon svg {
+  color: var(--text-primary);
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.item-title:hover .openrobotics-icon svg {
+  opacity: 1;
 }
