@@ -16,6 +16,11 @@ AI agents working with this repository will typically handle one of two distinct
 ### Use Case 2: Web Developer
 **Goal**: Modify the Jekyll application structure, layouts, styles, or testing infrastructure
 
+### Use Case 3: Release Manager
+**Goal**: Create release announcement posts for new versions
+
+**Important**: When asked to create release posts, publications, or announcements for a new version, follow the comprehensive guidelines in [PUBLISHING.md](PUBLISHING.md). This document contains all formatting requirements, link formats, checklist items, and best practices for LinkedIn and Discourse posts.
+
 ## Repository Structure
 
 ```
