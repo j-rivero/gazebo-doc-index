@@ -28,16 +28,14 @@ layout: "wrapper"
                             <div class="col-xs-12 item-container">
                                 {% for item in subcategory.items %}                   
                                 <li>
-                                    <p class="item-title">
+                                    <a class="item-title" style="text-decoration: none;" href="{{item.url}}" target="_blank" rel="noopener noreferrer">
                                         {% if item.star %}
-                                        <img src="{{ "/assets/img/star-128.png" | prepend: site.baseurl }}"  alt="star_logo" width=1%>
+                                        <span class="star-icon">★</span>
                                         {% endif %}
-                                        <a style="text-decoration: none" href={{item.url}}>                                    
-                                            {{item.title}}
-                                        </a>
-                                    </p>
+                                        {{item.title}}
+                                    </a>
+                                    <p class="item-desc">{{item.desc}}</p>
                                 </li>
-                                <p class="item-desc">{{item.desc}}</p>
                                 {% endfor %}
                             </div>
                         </ul>

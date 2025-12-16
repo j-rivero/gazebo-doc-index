@@ -2,26 +2,33 @@
 layout: "wrapper"
 ---
 
-<div class="container container-fluid">
+<div class="container container-fluid" style="padding-top: 40px; padding-bottom: 60px;">
     <div class="row">
         <div class="col-xs-12">
-        <h1>Gazebo Documentation Index</h1>
-        <p><em>
-          This <a href="https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#1-introduction">web</a>
-          provides a non official collection of <a href="https://gazebosim.org/">Gazebo</a> links to useful resources
-          organized following n <a href="https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#42-index-structure">predefined index structure</a>
-        </em></p>
-        <hr>
+            <h1>Unofficial Gazebo Documentation Index</h1>
+            <p style="font-size: 1.1rem; color: var(--text-secondary); max-width: 850px; margin-top: 20px; line-height: 1.7;">
+                This <a href="https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#1-introduction" style="color: var(--gazebo-orange); font-weight: 500;">community-driven collection</a> 
+                organizes <a href="https://gazebosim.org/" style="color: var(--gazebo-orange); font-weight: 500;">Gazebo</a> learning resources into a 
+                <a href="https://github.com/j-rivero/gazebo-doc-index/blob/master/design_spec.md#42-index-structure" style="color: var(--gazebo-orange); font-weight: 500;">searchable index</a>. 
+                Find tutorials, guides, tools, and documentation from across the Gazebo ecosystem.
+            </p>
+            <hr style="border-color: var(--border-color); margin: 32px 0;">
         </div>
     </div>
     <div class="row">
-        <ol class="cat-ol" start="0">
-            {% for cat in site.categories %}
-                <div class="col-xs-11 col-md-4 cat-card">
-                    <li><a style="text-decoration: none" href="{{cat.url | prepend: site.baseurl}}"><span class="cat-title">{{cat.title}}</span></a></li>
-                    <p class="cat-desc">{{cat.desc}}</p>
-                </div>
-            {% endfor %}
-        </ol>
+        <div class="col-xs-12">
+            <ol class="cat-ol" start="0">
+                {% for cat in site.categories %}
+                    <div class="col-xs-12 col-sm-6 col-md-4 cat-card">
+                        <li>
+                            <a style="text-decoration: none;" href="{{cat.url | prepend: site.baseurl}}">
+                                <span class="cat-title">{{cat.title}}</span>
+                            </a>
+                        </li>
+                        <p class="cat-desc">{{cat.desc}}</p>
+                    </div>
+                {% endfor %}
+            </ol>
+        </div>
     </div>
 </div>
