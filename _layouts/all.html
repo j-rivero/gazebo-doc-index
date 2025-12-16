@@ -23,7 +23,7 @@ layout: "wrapper"
                     <h3 class="subcat-title"><b>{{cat.title}}</b></h3>
                     <div class="container-fluid" style="margin-top: 20px">
                         {% for subcategory in cat.subcategories %}
-                        <h3 class="subcat-title">{{subcategory.title}}</h3>
+                        <h3 class="subcat-title" id="{{ subcategory.title | slugify }}">{{subcategory.title}}</h3>
                         <ul>
                             <div class="col-xs-12 item-container">
                                 {% for item in subcategory.items %}                   

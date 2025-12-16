@@ -31,7 +31,7 @@ layout: "wrapper"
         {% for subcategory in page.subcategories %}
         <div class="row">
             <div class="col-xs-12">
-                <h3 class="subcat-title">{{subcategory.title}}</h3>
+                <h3 class="subcat-title" id="{{ subcategory.title | slugify }}">{{subcategory.title}}</h3>
             </div>
         </div>
         
