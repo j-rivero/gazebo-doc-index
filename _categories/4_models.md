@@ -68,6 +68,10 @@ subcategories:
         url: https://vimeo.com/1136377469
         desc: ROSCon25 presentation on creating realistic terrain from real world geospatial data including Digital Elevation Models (DEMs)
         star: true
+      - title: Forest3D - Terrain and Forest Generation Tool
+        url: https://github.com/unitsSpaceLab/Forest3D
+        desc: Python toolkit that generates realistic forest environments from DEM terrain data and Blender assets
+        star: false
 
   - title: Developing new 3D models for Gazebo
     items:
