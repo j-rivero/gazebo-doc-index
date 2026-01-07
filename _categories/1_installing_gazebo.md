@@ -76,6 +76,11 @@ subcategories:
         desc: Gazebo Ionic runing in the cloud of Google Colab
         star: true
 
+      - title: Gazebo OCI Images
+        url: https://github.com/j-rivero/gz_oci_images/
+        desc: Docker/OCI images for Gazebo (Fortress to Jetty) with GPU support and multiple container tools (Rocker, Apptainer, Podman, etc.)
+        star: true
+
   - title: Gazebo + ROS installation on Ubuntu Linux
     items:
       - title: Installing Gazebo with ROS
