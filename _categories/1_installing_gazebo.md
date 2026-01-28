@@ -129,7 +129,11 @@ subcategories:
        url: https://github.com/marketplace/actions/setup-gazebo-environment
        desc: GitHub action in the marketplace to install Gazebo in all platforms
        star: true
-     - title: Headless EGL rendering (XVFB + VirtualGL)
+     - title: Headless rendering
+       url: https://gazebosim.org/api/sim/10/headless_rendering.html
+       desc: Use the EGL headless rendering with ogre2 in Gazebo Sim
+       star: true
+     - title: Headless rendering (XVFB + VirtualGL)
        url: https://discourse.openrobotics.org/t/egl-support-is-available-in-ignition-fortress/49107
        desc: Workaround to get headless EGL rendering XVFB with an EGL render from VirtualGL
        star: false
