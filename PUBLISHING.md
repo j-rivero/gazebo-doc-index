@@ -40,17 +40,29 @@ When creating release posts (LinkedIn and Discourse), ensure:
 
 ### Link Format
 
-**Critical**: Always use full category page URLs, not anchors.
+**Critical**: Always use category page URLs with subcategory anchors for precise linking.
 
-✅ **Correct**:
+✅ **Correct** (subcategory anchor):
+```markdown
+[Resource Name](https://j-rivero.github.io/gazebo-doc-index/categories/3_ros.html#the-ros-2-gazebo-bridge-ros_gz)
+```
+
+✅ **Acceptable** (whole category page):
 ```markdown
 [Resource Name](https://j-rivero.github.io/gazebo-doc-index/categories/3_ros.html)
 ```
 
-❌ **Incorrect**:
+❌ **Incorrect** (old anchor format):
 ```markdown
 [Resource Name](https://j-rivero.github.io/gazebo-doc-index/#ros)
 ```
+
+**Finding subcategory anchors**: Subcategory anchors are generated from the subcategory title in lowercase with spaces replaced by hyphens. They appear in the HTML as:
+```html
+<h3 class="subcat-title" id="installing-on-linux-macosx-and-windows">Installing on Linux, MacOSX and Windows</h3>
+```
+
+The anchor would be: `#installing-on-linux-macosx-and-windows`
 
 ### Category to File Mapping
 
@@ -70,13 +82,13 @@ The file mapping can be check in the _categories/ subdirectory of this repositor
 
 4. **Format and validate**:
    - Remove extra spaces between bullet points (Discourse)
-   - Fix all links to use category page URLs
+   - Fix all links to use category page URLs with subcategory anchors
    - Add appropriate hashtags (LinkedIn)
    - Proofread for clarity and consistency
 
 5. **Review checklist**:
    - [ ] All emojis from commits are included
-   - [ ] Links use correct category page format
+   - [ ] Links use category page with subcategory anchor format
    - [ ] No spaces between bullet points (Discourse)
    - [ ] LinkedIn post includes redesign note (if applicable)
    - [ ] Contributing section is present (Discourse)
