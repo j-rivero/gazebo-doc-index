@@ -75,4 +75,8 @@ subcategories:
         url: https://gazebosim.org/api/sensors/7/custom_sensors.html
         desc: How to create custom sensors to be used by Gazebo Sim
         star: true
+      - title: WGPU-based Raytracing Sensors for Gazebo
+        url: https://github.com/arjo129/gz_wgpu_rt_lidar
+        desc: GPU-accelerated raytracing LiDAR and depth camera sensors using WGPU for Gazebo
+        star: false
 ---
