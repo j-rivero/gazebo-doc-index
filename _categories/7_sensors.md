@@ -46,6 +46,10 @@ subcategories:
       url: https://vimeo.com/1136163508
       desc: ROSCon24 presentation on multi-LiDAR plugin using WGPU for hardware-accelerated ray tracing across AMD and NVIDIA GPUs, dramatically boosting simulation speed
       star: false
+    - title: RGL Gazebo Plugin
+      url: https://github.com/RobotecAI/RGLGazeboPlugin
+      desc: Robotec.AI GitHub plugin for high-performance GPU ray-traced LiDAR simulation in Gazebo
+      star: false
 
   - title: Other sensors
     items:
