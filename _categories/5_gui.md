@@ -30,6 +30,10 @@ subcategories:
        url: https://discourse.openrobotics.org/t/gsoc-2023-dynamic-wrench-application-through-the-gui/46869#mouse-drag-plugin
        desc: Drag objects around in the scene with the mouse cursor by applying forces and/or torques to links
        star: false
+     - title: Dynamic lighting and material control from a message
+       url: https://vimeo.com/992998493?fl=pl&fe=cm#t=35m40s
+       desc: Control lighting properties and material appearance dynamically in the simulation using Gazebo messages
+       star: false
 
   - title: Visualizing data
     items:
